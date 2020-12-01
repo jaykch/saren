@@ -1,0 +1,14 @@
+.banner{
+  background: url("../../images/backgrounds/1.svg"), url("../../images/backgrounds/2.svg");
+  background-size: contain, cover;
+  background-position: bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+  .text{
+    padding:1rem;
+    color: white;
+  }
+}
