@@ -1,10 +1,10 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+import { Menu } from "antd"
+import { MailOutlined, AppstoreOutlined, SettingOutlined } from "@ant-design/icons"
 
-const { SubMenu } = Menu;
+const { SubMenu } = Menu
 const Header = ({ siteTitle }) => (
   <header>
     <Menu mode="horizontal">
@@ -14,11 +14,7 @@ const Header = ({ siteTitle }) => (
       <Menu.Item key="app" disabled icon={<AppstoreOutlined />}>
         Navigation Two
       </Menu.Item>
-      <SubMenu
-        key="SubMenu"
-        icon={<SettingOutlined />}
-        title="Navigation Three - Submenu"
-      >
+      <SubMenu key="SubMenu" icon={<SettingOutlined />} title="Navigation Three - Submenu">
         <Menu.ItemGroup title="Item 1">
           <Menu.Item key="setting:1">Option 1</Menu.Item>
           <Menu.Item key="setting:2">Option 2</Menu.Item>

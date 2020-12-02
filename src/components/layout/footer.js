@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
   return (
     <footer style={{
-      marginTop: `2rem`
+      marginTop: `20rem`
     }}>
       © {new Date().getFullYear()}, Built with
       {` `}
