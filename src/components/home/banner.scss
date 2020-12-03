@@ -3,7 +3,7 @@
   background-size: contain, cover;
   background-position: bottom, center;
   background-repeat: no-repeat, no-repeat;
-  min-height: 100vh;
+  min-height: 95vh;
 
   .text {
 
@@ -12,18 +12,18 @@
     color: white;
 
     h2 {
-      font-size: 3rem;
+      font-size: 2.4rem;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      letter-spacing: 0.8px;
     }
 
     .target {
 
       padding: 6px 12px;
       box-shadow: 0 2.8px 2.8px -9px rgba(0, 0, 0, .008), 0 6.7px 6.7px -9px rgba(0, 0, 0, .01), 0 12.5px 12.6px -9px rgba(0, 0, 0, .016), 0 22.3px 22.6px -9px rgba(0, 0, 0, .02), 0 41.8px 42.2px -9px rgba(0, 0, 0, .024), 0 100px 101px -9px rgba(0, 0, 0, .03);
-      border-radius: 12px;
       background: hsla(0, 0%, 100%, .4);
       outline: 0;
       border: 1px solid transparent;
@@ -35,10 +35,7 @@
       font-weight: 500;
       cursor: pointer;
 
-      svg {
-        margin-top: 6px;
-        margin-left: 6px;
-      }
+      color: white;
     }
   }
 }

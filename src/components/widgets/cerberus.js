@@ -9,7 +9,7 @@ const { TabPane } = Tabs
 
 const Cerberus = () => {
   return (
-    <div className="cerberus container">
+    <section className="cerberus container" id="cerberus">
       <Row>
         <Col md={{span:20, offset:2}}>
           <h2>Explore 100s of cryptocurrencies with our cerberus tool</h2>
@@ -18,7 +18,7 @@ const Cerberus = () => {
       <Row>
         <Col md={{span:20, offset:2}} xs={24}>
           <Tabs defaultActiveKey="1" centered={true}>
-            <TabPane tab="Price Feeds" key="1">
+            <TabPane tab="Prices" key="1">
               <img src={cerberus} alt="" />
             </TabPane>
             <TabPane tab="Details" key="2">
@@ -33,7 +33,7 @@ const Cerberus = () => {
           </PremiumButton>
         </Col>
       </Row>
-    </div>
+    </section>
   )
 }
 

@@ -1,0 +1,248 @@
+header {
+
+  .logo {
+    font-weight: bolder;
+  }
+
+  .large-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1rem;
+
+    .logo {
+      margin: 0 1rem;
+      font-size: 1.6rem;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin: 1rem;
+
+        a {
+          color: #1e1e1e;
+          font-weight: 500;
+          letter-spacing: 0.7px;
+          position: relative;
+
+
+          &:after {
+            bottom: -10px;
+            left: 0;
+            content: '';
+            width: 35px;
+            position: absolute;
+            border-bottom: #0a0a0a 3px solid;
+            opacity: 0;
+            transition: opacity 0.4s ease-in;
+          }
+          &:hover{
+            &:after{
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*Responsive Navbar*/
+
+  .responsive-navbar {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+
+    a {
+      color: #1e1e1e;
+    }
+
+    li {
+      span {
+        border-bottom: 2px solid black;
+        padding-right: 15px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .responsive-navbar .logo {
+    display: block;
+    float: left;
+    padding: 16px 20px;
+    text-decoration: none;
+    height: 100%;
+
+    img {
+      margin: 0;
+    }
+  }
+
+  .responsive-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .responsive-navbar li a {
+    display: block;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+  }
+
+  .responsive-navbar .nav-text {
+  }
+
+  .responsive-navbar li a:hover,
+  .responsive-navbar .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+
+  /* menu */
+
+  .responsive-navbar .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+
+  /* menu icon */
+
+  .responsive-navbar .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+
+  .responsive-navbar .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+
+  .responsive-navbar .menu-icon .navicon:before,
+  .responsive-navbar .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+
+  .responsive-navbar .menu-icon .navicon:before {
+    top: 5px;
+  }
+
+  .responsive-navbar .menu-icon .navicon:after {
+    top: -5px;
+  }
+
+  /* menu btn */
+
+  .responsive-navbar .menu-btn {
+    display: none;
+  }
+
+  .responsive-navbar .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+
+  .responsive-navbar .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+
+  .responsive-navbar .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+
+  .responsive-navbar .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+
+  .responsive-navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .responsive-navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+  .responsive-navbar .nav-text {
+    opacity: 0.4;
+  }
+
+  .responsive-navbar .menu-active .nav-text {
+    opacity: 1;
+  }
+
+  .floating-phone {
+
+    position: fixed !important;
+    bottom: 1rem !important;
+    right: 1rem !important;
+    z-index: 3 !important;
+  }
+
+
+  .floating-phone {
+    font-size: 3rem !important;
+    color: #31e1eb !important;
+
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+
+  .floating-phone:hover {
+    opacity: 0.6;
+  }
+
+  /*Responsive Code*/
+
+  @media screen and (min-width: 992px) {
+    .responsive-navbar {
+      display: none;
+    }
+
+    .responsive-navbar li {
+      float: left;
+    }
+
+    .responsive-navbar li a {
+      padding: 20px 30px;
+    }
+
+    .responsive-navbar .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+
+    .responsive-navbar .menu-icon {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .large-navbar {
+      display: none;
+    }
+  }
+}

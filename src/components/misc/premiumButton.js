@@ -1,15 +1,15 @@
 import React from "react"
 import "./premiumButton.scss"
 
-const PremiumButton = ({ children, link, type = "link" }) => {
+const PremiumButton = ({ children, link, type = "link", color = "default" }) => {
   return (
     type === "link" ?
-      <a className="premium-button" href={link} target="_blank" rel="noopener noreferrer">
+      <a className={`premium-button ${color}`} href={link} target="_blank" rel="noopener noreferrer">
         {children}
       </a> :
-      <div className="premium-button">
+      <button className="premium-button" type="submit">
         {children}
-      </div>
+      </button>
   )
 }
 

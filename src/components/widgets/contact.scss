@@ -1,5 +1,6 @@
 .contact-form {
   margin: 4rem 0;
+  padding-bottom: 6rem;
 
   .form-container{
     width: 100%;
@@ -48,42 +49,5 @@
     color: #919394;
     font-size: 13px;
     opacity: 1; /* Firefox */
-  }
-
-  button {
-    display: flex;
-    margin-top: 2rem;
-
-    padding: .8rem;
-    color: #fafafa;
-    border: 2px solid #0a0a0a;
-    line-height: 1.68;
-    letter-spacing: .1rem;
-    font-size: 1rem;
-    box-shadow: 0 0 5px -2px rgba(0, 0, 0, .75);
-    background-color: #0a0a0a;
-    background-image: -webkit-linear-gradient(30deg, #fafafa 50%, transparent 0);
-    background-image: -webkit-linear-gradient(60deg, #fafafa 50%, transparent 0);
-    background-image: linear-gradient(30deg, #fafafa 50%, transparent 0);
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-  }
-
-  button, button:hover {
-    text-decoration: none;
-  }
-
-
-  button:hover {
-    background-position: 0;
-    color: #0a0a0a;
-  }
-
-  button svg {
-    margin-right: .5rem;
-    font-size: 1.8rem;
   }
 }

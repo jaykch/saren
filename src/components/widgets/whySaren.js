@@ -5,7 +5,7 @@ import why from "../../images/illustrations/1.svg"
 
 const WhySaren = () => {
   return (
-    <section className="why-saren container">
+    <section className="why-saren container" id="whyus">
       <h2>Why Saren?</h2>
       <Row>
         <Col md={{ span: 12}} className="text">

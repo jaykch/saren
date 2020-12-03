@@ -18,7 +18,7 @@ const Community = () => {
         <Col md={{ span: 18, offset: 3 }}>
           <ul className="cards-container">
             <li className="card-wrapper">
-              <a href="" className="card">
+              <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">
                 <span className="title">
                 <FaTelegramPlane />Telegram
                 </span>
@@ -28,7 +28,7 @@ const Community = () => {
               </a>
             </li>
             <li className="card-wrapper">
-              <a href="" className="card">
+              <a href="https://discord.gg/8YvpfQKn" target="_blank" rel="noreferrer noopener" className="card">
                 <span className="title">
                   <FaDiscord />Discord
                 </span>
@@ -38,7 +38,7 @@ const Community = () => {
               </a>
             </li>
             <li className="card-wrapper">
-              <a href="" className="card">
+              <a href="https://github.com/saren-io" target="_blank" rel="noreferrer noopener" className="card">
                 <span className="title">
                   <FaGithub /> Github
                 </span>
@@ -48,7 +48,7 @@ const Community = () => {
               </a>
             </li>
             <li className="card-wrapper">
-              <a href="" className="card">
+              <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">
                 <span className="title">
                   <FaYoutube />Youtube
                 </span>
@@ -59,12 +59,12 @@ const Community = () => {
 
             </li>
             <li className="card-wrapper">
-              <a href="" className="card">
+              <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">
                 <span className="title">
                   <FaTwitter />Twitter
                 </span>
                 <span className="subtitle">
-                  View our videos <RightOutlined />
+                  Latest News <RightOutlined />
                 </span>
               </a>
             </li>

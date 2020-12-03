@@ -1,35 +1,75 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Menu } from "antd"
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from "@ant-design/icons"
+import "./header.scss"
+import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-const { SubMenu } = Menu
-const Header = ({ siteTitle }) => (
-  <header>
-    <Menu mode="horizontal">
-      <Menu.Item key="mail" icon={<MailOutlined />}>
-        Navigation One
-      </Menu.Item>
-      <Menu.Item key="app" disabled icon={<AppstoreOutlined />}>
-        Navigation Two
-      </Menu.Item>
-      <SubMenu key="SubMenu" icon={<SettingOutlined />} title="Navigation Three - Submenu">
-        <Menu.ItemGroup title="Item 1">
-          <Menu.Item key="setting:1">Option 1</Menu.Item>
-          <Menu.Item key="setting:2">Option 2</Menu.Item>
-        </Menu.ItemGroup>
-        <Menu.ItemGroup title="Item 2">
-          <Menu.Item key="setting:3">Option 3</Menu.Item>
-          <Menu.Item key="setting:4">Option 4</Menu.Item>
-        </Menu.ItemGroup>
-      </SubMenu>
-      <Menu.Item key="alipay">
-        <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-          Navigation Four - Link
-        </a>
-      </Menu.Item>
-    </Menu>
+const ResponsiveNavbar = () => {
+  return (
+    <div className="responsive-navbar">
+      <Link to="/" className="logo">
+        <span>SAREN</span>
+      </Link>
+      <input className="menu-btn" type="checkbox" id="menu-btn" />
+      <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
+      <ul className="menu">
+        <li>
+          <AnchorLink to="/#cerberus"><span>Cerberus</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#roadmap"><span>Roadmap</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#whyus"><span>Why Us?</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#blog"><span>Blog</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#contact"><span>Contact</span></AnchorLink>
+        </li>
+      </ul>
+    </div>
+  )
+}
+
+const LargeNavbar = () => {
+  return (
+    <div className="large-navbar">
+      <span className="logo">
+        SAREN
+      </span>
+      <ul className="links">
+        <li>
+          <AnchorLink to="/#cerberus"><span>Cerberus</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#roadmap"><span>Roadmap</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#whyus"><span>Why Us?</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#blog"><span>Blog</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#contact"><span>Contact</span></AnchorLink>
+        </li>
+      </ul>
+    </div>
+  )
+}
+
+const Header = () => (
+  <header className="container">
+    <ResponsiveNavbar />
+    <LargeNavbar />
   </header>
 )
 

@@ -1,7 +1,7 @@
 import React from "react"
 import "./banner.scss"
 import { Row, Col } from "antd"
-import { ArrowRightOutlined } from "@ant-design/icons"
+import PremiumButton from "../misc/premiumButton"
 
 const Banner = () => {
   return (
@@ -14,8 +14,9 @@ const Banner = () => {
               <p>Use our cerberus tool to take a deep dive into the blockchain world with a gamified Coingecko model
                 that rewards you for keeping track of your cryptocurrencies.</p>
               <br />
-              <button className="target">Cerberus </button>
-              <button className="target">Whitepaper V1<ArrowRightOutlined /></button>
+              <PremiumButton link="https://cerberus.saren.io/" color="inverted">
+                Cerberus
+              </PremiumButton>
             </div>
           </Col>
         </Row>

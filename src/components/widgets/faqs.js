@@ -11,7 +11,7 @@ const data = [
 
 const Faqs = () => {
   return (
-    <section className="faqs container">
+    <section className="faqs container" id="faqs">
       <h2>Frequently Asked Questions</h2>
       <Row>
         <Col md={{ span: 18, offset: 2 }} className="snippet-content">
