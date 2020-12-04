@@ -11,7 +11,7 @@ import Blog from "../components/widgets/blog"
 import Faqs from "../components/widgets/faqs"
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Saren.io" />
     <Banner/>
     <Cerberus/>
     <RoadMap/>
