@@ -42,11 +42,21 @@ const Footer = () => {
           <Col sm={6} xs={24}>
             <h3>Social</h3>
             <ul className="social">
-              <li><FaTelegramPlane />Telegram</li>
-              <li><FaDiscord />Discord</li>
-              <li><FaGithub /> Github</li>
-              <li><FaYoutube />Youtube</li>
-              <li><FaTwitter />Twitter</li>
+              <li>
+                <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener"><FaTelegramPlane />Telegram</a>
+              </li>
+              <li>
+                <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener">
+                  <FaDiscord />Discord
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener">
+                  <FaGithub /> Github
+                </a>
+              </li>
+              {/*<li><FaYoutube />Youtube</li>*/}
+              {/*<li><FaTwitter />Twitter</li>*/}
             </ul>
           </Col>
         </Row>

@@ -1,7 +1,7 @@
 import React from "react"
 import "./community.scss"
 import { Row, Col } from "antd"
-import { FaTelegramPlane, FaGithub, FaDiscord, FaYoutube, FaTwitter } from "react-icons/fa"
+import { FaTelegramPlane, FaGithub, FaDiscord } from "react-icons/fa"
 import { RightOutlined } from "@ant-design/icons"
 
 const Community = () => {
@@ -47,27 +47,27 @@ const Community = () => {
                 </span>
               </a>
             </li>
-            <li className="card-wrapper">
-              <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">
-                <span className="title">
-                  <FaYoutube />Youtube
-                </span>
-                <span className="subtitle">
-                  View our videos <RightOutlined />
-                </span>
-              </a>
+            {/*<li className="card-wrapper">*/}
+            {/*  <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">*/}
+            {/*    <span className="title">*/}
+            {/*      <FaYoutube />Youtube*/}
+            {/*    </span>*/}
+            {/*    <span className="subtitle">*/}
+            {/*      View our videos <RightOutlined />*/}
+            {/*    </span>*/}
+            {/*  </a>*/}
 
-            </li>
-            <li className="card-wrapper">
-              <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">
-                <span className="title">
-                  <FaTwitter />Twitter
-                </span>
-                <span className="subtitle">
-                  Latest News <RightOutlined />
-                </span>
-              </a>
-            </li>
+            {/*</li>*/}
+            {/*<li className="card-wrapper">*/}
+            {/*  <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">*/}
+            {/*    <span className="title">*/}
+            {/*      <FaTwitter />Twitter*/}
+            {/*    </span>*/}
+            {/*    <span className="subtitle">*/}
+            {/*      Latest News <RightOutlined />*/}
+            {/*    </span>*/}
+            {/*  </a>*/}
+            {/*</li>*/}
           </ul>
         </Col>
       </Row>

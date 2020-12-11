@@ -13,6 +13,16 @@ footer {
     margin: 0;
     font-size: 1rem;
     margin-bottom: 2rem;
+
+    li{
+      a{
+        transition: opacity 0.3s ease-out;
+
+        &:hover{
+          opacity: 0.6;
+        }
+      }
+    }
   }
 
   ul.nav{
@@ -26,10 +36,15 @@ footer {
   }
 
   ul.social {
-    li {
+    a {
       font-weight: 500;
       display: flex;
       align-items: center;
+      color: white;
+
+      &:hover, &:focus{
+        color: white;
+      }
 
       svg {
         margin-right: 10px;

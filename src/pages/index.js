@@ -9,6 +9,7 @@ import Community from "../components/widgets/community"
 import WhySaren from "../components/widgets/whySaren"
 import Blog from "../components/widgets/blog"
 import Faqs from "../components/widgets/faqs"
+import Future from "../components/widgets/future"
 const IndexPage = () => (
   <Layout>
     <SEO title="Saren.io" />
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <Community/>
     <WhySaren/>
     <Blog/>
+    <Future/>
     <Faqs/>
     <Contact/>
   </Layout>

@@ -2,6 +2,10 @@ header {
 
   .logo {
     font-weight: bolder;
+    img {
+      height: 28px;
+      margin: 0;
+    }
   }
 
   .large-navbar {
@@ -14,6 +18,14 @@ header {
     .logo {
       margin: 0 1rem;
       font-size: 1.6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 18px;
+        margin: 0;
+      }
     }
 
     ul {
@@ -37,14 +49,15 @@ header {
             bottom: -10px;
             left: 0;
             content: '';
-            width: 35px;
+            width: 25px;
             position: absolute;
             border-bottom: #0a0a0a 3px solid;
             opacity: 0;
             transition: opacity 0.4s ease-in;
           }
-          &:hover{
-            &:after{
+
+          &:hover {
+            &:after {
               opacity: 1;
             }
           }

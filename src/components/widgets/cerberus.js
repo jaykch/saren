@@ -1,6 +1,9 @@
 import React from "react"
 import "./cerberus.scss"
-import cerberus from "../../images/cerberus/cerberus.jpg"
+import pricesThumb from "../../images/cerberus/pricesThumb.jpg"
+import detailsThumb from "../../images/cerberus/detailsThumb.jpg"
+import walletThumb from "../../images/cerberus/walletThumb.jpg"
+import prices from "../../videos/prices.mp4"
 import { Col, Row, Tabs } from "antd"
 import PremiumButton from "../misc/premiumButton"
 
@@ -19,13 +22,16 @@ const Cerberus = () => {
         <Col md={{span:20, offset:2}} xs={24}>
           <Tabs defaultActiveKey="1" centered={true}>
             <TabPane tab="Prices" key="1">
-              <img src={cerberus} alt="" />
+              <video preload='auto' poster={pricesThumb} loop autoPlay muted>
+                <source src={prices} type="video/mp4" />
+                Your browser does not support HTML5 video.
+              </video>
             </TabPane>
             <TabPane tab="Details" key="2">
-              <img src={cerberus} alt="" />
+              <img src={detailsThumb} alt="" />
             </TabPane>
             <TabPane tab="Wallet Tracker" key="3">
-              <img src={cerberus} alt="" />
+              <img src={walletThumb} alt="" />
             </TabPane>
           </Tabs>
           <PremiumButton link="https://cerberus.saren.io/">

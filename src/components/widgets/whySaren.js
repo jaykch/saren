@@ -17,7 +17,7 @@ const WhySaren = () => {
             future of Saren through our governance protocol.</p>
         </Col>
         <Col md={{ span: 12 }}>
-          <img src={why} alt="" />
+          <img src={why} alt="Why Us?" />
         </Col>
       </Row>
     </section>

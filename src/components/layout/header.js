@@ -1,15 +1,16 @@
 import PropTypes from "prop-types"
 import React from "react"
 import "./header.scss"
-import { Link } from "gatsby"
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { AnchorLink } from "gatsby-plugin-anchor-links"
+import logo from "../../images/logo-letters.png"
+import icon from "../../images/icon.png"
 
 const ResponsiveNavbar = () => {
   return (
     <div className="responsive-navbar">
-      <Link to="/" className="logo">
-        <span>SAREN</span>
-      </Link>
+      <AnchorLink to="/#banner" className="logo">
+        <img src={icon} alt="Saren" />
+      </AnchorLink>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
       <ul className="menu">
@@ -39,9 +40,9 @@ const ResponsiveNavbar = () => {
 const LargeNavbar = () => {
   return (
     <div className="large-navbar">
-      <span className="logo">
-        SAREN
-      </span>
+      <AnchorLink to="/#banner" className="logo">
+        <img src={logo} alt="Saren" />
+      </AnchorLink>
       <ul className="links">
         <li>
           <AnchorLink to="/#cerberus"><span>Cerberus</span></AnchorLink>
@@ -53,7 +54,9 @@ const LargeNavbar = () => {
           <AnchorLink to="/#whyus"><span>Why Us?</span></AnchorLink>
         </li>
         <li>
-          <AnchorLink to="/#blog"><span>Blog</span></AnchorLink>
+          <a href="https://blog.saren.io/" rel="noreferrer noopener" target="_blank">
+            <span>Blog</span>
+          </a>
         </li>
         <li>
           <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>

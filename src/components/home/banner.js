@@ -5,7 +5,7 @@ import PremiumButton from "../misc/premiumButton"
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div className="banner" id="banner">
       <div className="container">
         <Row>
           <Col md={12} xs={24}>
