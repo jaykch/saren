@@ -1,5 +1,19 @@
 header {
 
+  .external{
+
+    span{
+      display: inline-flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      width: auto;
+      svg{
+        margin-left: 5px;
+      }
+    }
+  }
+
   .logo {
     font-weight: bolder;
     img {

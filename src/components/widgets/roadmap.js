@@ -27,6 +27,7 @@ const RoadMap = () => {
             </Timeline.Item>
             <Timeline.Item label="Q2 2021" dot={<ClockCircleOutlined />}>
               <p>Investment Strategy (ICO or Private)</p>
+              <p>Shill My Coins App</p>
               <p>Subscription protocol</p>
             </Timeline.Item>
             <Timeline.Item label="Q3 2021" dot={<ClockCircleOutlined />}>

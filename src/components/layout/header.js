@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./header.scss"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { BsArrowUpRight } from "react-icons/bs"
 import logo from "../../images/logo-letters.png"
 import icon from "../../images/icon.png"
 
@@ -15,7 +16,9 @@ const ResponsiveNavbar = () => {
       <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
       <ul className="menu">
         <li>
-          <AnchorLink to="/#cerberus"><span>Cerberus</span></AnchorLink>
+          <a href="https://cerberus.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
+            <span>Launch App  <BsArrowUpRight /></span>
+          </a>
         </li>
         <li>
           <AnchorLink to="/#roadmap"><span>Roadmap</span></AnchorLink>
@@ -45,7 +48,9 @@ const LargeNavbar = () => {
       </AnchorLink>
       <ul className="links">
         <li>
-          <AnchorLink to="/#cerberus"><span>Cerberus</span></AnchorLink>
+          <a href="https://cerberus.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
+            <span>Launch App  <BsArrowUpRight /></span>
+          </a>
         </li>
         <li>
           <AnchorLink to="/#roadmap"><span>Roadmap</span></AnchorLink>

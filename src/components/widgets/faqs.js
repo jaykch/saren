@@ -35,6 +35,12 @@ const data = [
       "Users will be rewarded with initial 25 million for the daily rewards and another 25 million will be reserved for marketing purposes like private sale, liquidity pools etc. " +
       "The remaining 50 million tokens will be held by the company for continued development"
   },
+  {
+    key: 6,
+    question: "What is shill my coins app?",
+    answer: "Shill my apps is our second stage app where token holders will be allowed to shill their coins in a reddit style online forum. " +
+      "The amount of tokens needed to create a post will be decided through our governance protocol."
+  }
 ]
 
 const Faqs = () => {
