@@ -28,7 +28,7 @@ const Community = () => {
               </a>
             </li>
             <li className="card-wrapper">
-              <a href="https://discord.gg/8YvpfQKn" target="_blank" rel="noreferrer noopener" className="card">
+              <a href="https://discord.gg/e9qtVrtukg" target="_blank" rel="noreferrer noopener" className="card">
                 <span className="title">
                   <FaDiscord />Discord
                 </span>

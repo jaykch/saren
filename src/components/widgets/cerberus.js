@@ -15,7 +15,7 @@ const Cerberus = () => {
     <section className="cerberus container" id="cerberus">
       <Row>
         <Col md={{span:20, offset:2}}>
-          <h2>Explore 100s of cryptocurrencies with our cerberus tool</h2>
+          <h2>Explore 100s of cryptocurrencies with our Cerberus tool</h2>
         </Col>
       </Row>
       <Row>

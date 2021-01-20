@@ -1,7 +1,7 @@
 import React from "react"
 import "./footer.scss"
 import { Row, Col } from "antd"
-import { FaDiscord, FaGithub, FaTelegramPlane, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaDiscord, FaGithub, FaTelegramPlane } from "react-icons/fa"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const Footer = () => {
@@ -11,8 +11,8 @@ const Footer = () => {
         <Row>
           <Col sm={12} xs={24}>
             <ul className="info">
-              <li>Privacy Policy</li>
-              <li>Terms of Use</li>
+              <li>Privacy Policy (pending)</li>
+              <li>Terms of Use (pending)</li>
             </ul>
           </Col>
           <Col sm={6} xs={24}>
@@ -46,12 +46,12 @@ const Footer = () => {
                 <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener"><FaTelegramPlane />Telegram</a>
               </li>
               <li>
-                <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener">
+                <a href="https://discord.gg/e9qtVrtukg" target="_blank" rel="noreferrer noopener">
                   <FaDiscord />Discord
                 </a>
               </li>
               <li>
-                <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener">
+                <a href="https://github.com/saren-io" target="_blank" rel="noreferrer noopener">
                   <FaGithub /> Github
                 </a>
               </li>

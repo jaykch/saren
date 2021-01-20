@@ -21,7 +21,7 @@ const data = [
     key: 3,
     question: "How does proof of engagement token work?",
     answer: "Proof of engagement token is going to be our token that will be given out to users who successfully login to one of our tools daily. " +
-      "It is going to be an ERC20 token that advertisers would need to purchase from the users to be able to advertise on any of our tools."
+      "It is going to be an ERC20 token that advertisers would need to purchase from Uniswap to be able to advertise on any of our tools."
   },
   {
     key: 4,

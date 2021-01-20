@@ -12,9 +12,8 @@ const WhySaren = () => {
           <h4>Get rewarded for keeping track of your crypto</h4>
           <p>Our industry first rewards mechanism rewards our users for keeping track of their favourite
             projects. </p>
-          <p>Each user is paid out our Proof of Engagement token every week which they can
-            either sell to companies who want to use our tools to advertise their projects or use it to help shape the
-            future of Saren through our governance protocol.</p>
+          <p>Each user is paid out our Proof of Engagement token every week which they can use to help shape the
+            future of Saren through our governance protocol or liquidity on Uniswap.</p>
         </Col>
         <Col md={{ span: 12 }}>
           <img src={why} alt="Why Us?" />
