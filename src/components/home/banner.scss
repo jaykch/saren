@@ -1,15 +1,41 @@
 .banner {
-  background: url("../../images/backgrounds/1.svg"), url("../../images/backgrounds/2.svg");
-  background-size: contain, cover;
-  background-position: bottom, center;
-  background-repeat: no-repeat, no-repeat;
-  min-height: 95vh;
+  background-color: #6b54ff9c;
+  min-height: 85vh;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+
+  display: flex;
+  align-items: center;
+
+  img{
+    width: 90%;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .image{
+      display: none;
+    }
+  }
 
   .text {
 
-    margin-top: 30%;
+    .logoContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logo{
+        width: 50%;
+      }
+    }
+
+    margin-top: 10%;
     padding: 1rem;
-    color: white;
+    color: black;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
 
     h2 {
       font-size: 2.4rem;
@@ -20,22 +46,8 @@
       letter-spacing: 0.8px;
     }
 
-    .target {
-
-      padding: 6px 12px;
-      box-shadow: 0 2.8px 2.8px -9px rgba(0, 0, 0, .008), 0 6.7px 6.7px -9px rgba(0, 0, 0, .01), 0 12.5px 12.6px -9px rgba(0, 0, 0, .016), 0 22.3px 22.6px -9px rgba(0, 0, 0, .02), 0 41.8px 42.2px -9px rgba(0, 0, 0, .024), 0 100px 101px -9px rgba(0, 0, 0, .03);
-      background: hsla(0, 0%, 100%, .4);
-      outline: 0;
-      border: 1px solid transparent;
-      border-image: initial;
-      margin-right: 1rem;
-      margin-bottom: 1rem;
-
-      font-size: 1.2rem;
-      font-weight: 500;
-      cursor: pointer;
-
-      color: white;
+    .premium-button{
+      margin-left: auto;
     }
   }
 }

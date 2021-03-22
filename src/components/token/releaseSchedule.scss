@@ -1,0 +1,20 @@
+.releaseSchedule {
+  .ant-row {
+    padding-top: 4rem;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+    stroke: #FF6366 !important;
+  }
+
+  .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: #FF6366;
+    border-color: #FF6366;
+  }
+
+  padding-bottom: 20rem;
+}

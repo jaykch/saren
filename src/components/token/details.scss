@@ -1,0 +1,26 @@
+.tokenDetails {
+  .ant-row {
+    padding-top: 4rem;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .coinStats {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding-top: 2rem;
+
+    .labels {
+      color: rgba(0, 0, 0, .45);
+    }
+
+    .values {
+      list-style: none;
+      font-weight: 600;
+      text-align: right;
+    }
+  }
+}

@@ -21,10 +21,13 @@ const ResponsiveNavbar = () => {
           </a>
         </li>
         <li>
-          <AnchorLink to="/#roadmap"><span>Roadmap</span></AnchorLink>
+          <AnchorLink to="/token"><span>Token</span></AnchorLink>
         </li>
         <li>
-          <AnchorLink to="/#whyus"><span>Why Us?</span></AnchorLink>
+          <AnchorLink to="/cerberus"><span>Cerberus</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/why"><span>Why Us?</span></AnchorLink>
         </li>
         <li>
           <AnchorLink to="/#blog"><span>Blog</span></AnchorLink>
@@ -53,10 +56,13 @@ const LargeNavbar = () => {
           </a>
         </li>
         <li>
-          <AnchorLink to="/#roadmap"><span>Roadmap</span></AnchorLink>
+          <AnchorLink to="/token"><span>Token</span></AnchorLink>
         </li>
         <li>
-          <AnchorLink to="/#whyus"><span>Why Us?</span></AnchorLink>
+          <AnchorLink to="/cerberus"><span>Cerberus</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/why"><span>Why Us?</span></AnchorLink>
         </li>
         <li>
           <a href="https://blog.saren.io/" rel="noreferrer noopener" target="_blank">

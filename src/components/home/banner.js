@@ -2,20 +2,27 @@ import React from "react"
 import "./banner.scss"
 import { Row, Col } from "antd"
 import PremiumButton from "../misc/premiumButton"
+import home from "../../images/backgrounds/home.svg"
+import logo from "../../images/logos/side_by_side.png"
 
 const Banner = () => {
   return (
     <div className="banner" id="banner">
       <div className="container">
         <Row>
-          <Col md={12} xs={24}>
+          <Col md={12} xs={24} className="image">
+            <img src={home} alt="Banner" />
+          </Col>
+          <Col lg={12} xs={24}>
             <div className="text">
-              <h2>Get rewarded for tracking your crypto </h2>
-              <p>Use our Cerberus tool to take a deep dive into the blockchain world with a gamified model
-                that rewards you for keeping track of your cryptocurrencies.</p>
+              <div className="logoContainer">
+                <img src={logo} alt="Icon" className="logo" />
+              </div>
+              <h2>Community built set of decentralised tools.</h2>
+              <p>We aim to build decentralised tools for the cryptocurrency community that are more engaging then the current apps.</p>
               <br />
               <PremiumButton link="https://cerberus.saren.io/" color="inverted">
-                Cerberus
+                Cerberus App
               </PremiumButton>
             </div>
           </Col>
