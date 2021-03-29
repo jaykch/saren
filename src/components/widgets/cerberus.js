@@ -1,11 +1,12 @@
 import React from "react"
 import "./cerberus.scss"
 import pricesThumb from "../../images/cerberus/pricesThumb.jpg"
-import detailsThumb from "../../images/cerberus/detailsThumb.jpg"
+import detailsThumb from "../../images/cerberus/analytics.svg"
 import walletThumb from "../../images/cerberus/walletThumb.jpg"
 import prices from "../../videos/prices.mp4"
 import { Col, Row, Tabs } from "antd"
 import PremiumButton from "../misc/premiumButton"
+import { Link } from "gatsby"
 
 const { TabPane } = Tabs
 
@@ -30,12 +31,12 @@ const Cerberus = () => {
             <TabPane tab="Details" key="2">
               <img src={detailsThumb} alt="" />
             </TabPane>
-            <TabPane tab="Wallet Tracker" key="3">
+            <TabPane tab="Tracker" key="3">
               <img src={walletThumb} alt="" />
             </TabPane>
           </Tabs>
-          <PremiumButton link="https://cerberus.saren.io/">
-            Cerberus
+          <PremiumButton link="/cerberus">
+            <Link to="/cerberus">View Details ></Link>
           </PremiumButton>
         </Col>
       </Row>

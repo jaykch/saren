@@ -3,12 +3,28 @@
   flex-flow: column nowrap;
   justify-content: center;
 
-  video{
+  .ant-tabs-tabpane {
+    display: flex;
+    justify-content: center;
+  }
+
+  video {
     width: 100%;
   }
 
-  .premium-button{
+  .premium-button {
     margin: 2rem auto;
+
+    a {
+      color: white;
+
+      &:hover{
+        background-position: 0;
+        text-decoration: none;
+        color: black;
+        border: none;
+      }
+    }
   }
 
   h2 {

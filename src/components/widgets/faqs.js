@@ -31,15 +31,22 @@ const data = [
   {
     key: 5,
     question: "What will the supply of these tokens be?",
-    answer: "Total supply would be capped at 100 million. " +
-      "Users will be rewarded with initial 25 million for the daily rewards and another 25 million will be reserved for marketing purposes like private sale, liquidity pools etc. " +
-      "The remaining 50 million tokens will be held by the company for continued development"
+    answer: "Total supply would be capped at 1 Billion. " +
+      "Detailed token structure can be viewed on the token page"
   },
   {
     key: 6,
     question: "What is shill my coins app?",
     answer: "Shill my apps is our second stage app where token holders will be allowed to shill their coins in a reddit style online forum. " +
       "The amount of tokens needed to create a post will be decided through our governance protocol."
+  },
+  {
+    key: 7,
+    question: "What do we expect Saren to become in this decade?",
+    answer: "After finishing Cerberus we will be working on a Decentralized subscription protocol, basically a decentralized Patreon, " +
+      "where the creators get 95% of the subscription and the 5% is taken in by the smart contract for maintenance. " +
+      "Right now companies like Patreon take a big chunk of their subscriptions which we feel like is a bit crafty. " +
+      "Furthermore, there have been cases where they have banned creators with no clear reasons."
   }
 ]
 
