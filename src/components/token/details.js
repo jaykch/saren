@@ -1,6 +1,8 @@
 import React from "react"
 import "./details.scss"
-import { Col, Row, Divider } from "antd"
+import { Col, Row, Divider, Typography } from "antd"
+
+const { Paragraph } = Typography
 
 const Details = () => {
   return (
@@ -26,7 +28,13 @@ const Details = () => {
               <li>$0.001</li>
               <li>30,000,000</li>
               <li>1,000,000,000</li>
-              <li>To be released</li>
+              <li className="desktop">
+                <Paragraph
+                  copyable={{ text: "0xbd4a858139b155219e2c8d10135003fdef720b6b" }}>0xbd4a858139b155219e2c8d10135003fdef720b6b</Paragraph>
+              </li>
+              <li className="mobile">
+                <Paragraph copyable={{ text: "0xbd4a858139b155219e2c8d10135003fdef720b6b" }}>0xbd...b6b</Paragraph>
+              </li>
             </ul>
           </div>
         </Col>

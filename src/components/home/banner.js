@@ -19,7 +19,7 @@ const Banner = () => {
                 <img src={logo} alt="Icon" className="logo" />
               </div>
               <h1>Community built set of decentralised tools.</h1>
-              <p>We aim to build decentralised tools for the cryptocurrency community that are more engaging then the current apps.</p>
+              <p>We aim to build decentralised tools for the cryptocurrency community that are more engaging than the current apps.</p>
               <br />
               <PremiumButton link="https://cerberus.saren.io/" color="inverted">
                 Cerberus App

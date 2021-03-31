@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Saren.io" />
     <Banner/>
-    <Cerberus/>
+    {/*<Cerberus/>*/}
     <RoadMap/>
     <Community/>
     <WhySaren/>

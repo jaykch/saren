@@ -1,8 +1,19 @@
-.whereToBuy{
-  .ant-row{
+.whereToBuy {
+  .ant-row {
     padding-top: 2rem;
   }
-  span{
+
+  p {
+    font-size: 1rem;
+  }
+
+  .text{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  span {
     font-size: 1rem;
     font-weight: 600;
   }

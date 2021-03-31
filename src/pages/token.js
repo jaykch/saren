@@ -6,6 +6,7 @@ import Details from "../components/token/details"
 import Distribution from "../components/token/distribution"
 import Where from "../components/token/where"
 import Banner from "../components/token/banner"
+import UseCase from "../components/token/UseCase"
 
 const TokenPage = () => {
   return (
@@ -16,6 +17,7 @@ const TokenPage = () => {
       <Where />
       <Distribution />
       <ReleaseSchedule />
+      <UseCase />
     </Layout>
   )
 }
