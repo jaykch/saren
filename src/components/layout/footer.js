@@ -1,8 +1,9 @@
 import React from "react"
 import "./footer.scss"
 import { Row, Col } from "antd"
-import { FaDiscord, FaGithub, FaTelegramPlane } from "react-icons/fa"
+import { FaDiscord, FaGithub, FaLinkedin, FaTelegramPlane, FaTwitter } from "react-icons/fa"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { Link } from "gatsby"
 
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
 
             <ul className="nav">
               <li>
-                <AnchorLink to="/#cerberus"><span>Cerberus</span></AnchorLink>
+                <Link to="/cerberus"><span>Cerberus</span></Link>
               </li>
               <li>
                 <AnchorLink to="/#roadmap"><span>Roadmap</span></AnchorLink>
@@ -29,7 +30,9 @@ const Footer = () => {
                 <AnchorLink to="/#whyus"><span>Why Us?</span></AnchorLink>
               </li>
               <li>
-                <AnchorLink to="/#blog"><span>Blog</span></AnchorLink>
+                <a href="https://blog.saren.io/" rel="noreferrer noopener" target="_blank">
+                  <span>Blog</span>
+                </a>
               </li>
               <li>
                 <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>
@@ -46,6 +49,14 @@ const Footer = () => {
                 <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener"><FaTelegramPlane />Telegram</a>
               </li>
               <li>
+                <a href="https://twitter.com/saren_io" target="_blank"
+                   rel="noreferrer noopener"><FaTwitter />Twitter</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/saren-io" target="_blank"
+                   rel="noreferrer noopener"><FaLinkedin />Linkedin</a>
+              </li>
+              <li>
                 <a href="https://discord.gg/e9qtVrtukg" target="_blank" rel="noreferrer noopener">
                   <FaDiscord />Discord
                 </a>
@@ -55,8 +66,6 @@ const Footer = () => {
                   <FaGithub /> Github
                 </a>
               </li>
-              {/*<li><FaYoutube />Youtube</li>*/}
-              {/*<li><FaTwitter />Twitter</li>*/}
             </ul>
           </Col>
         </Row>

@@ -15,11 +15,8 @@ const data = [
   {
     key: 2,
     question: "What does cerberus offer that the competition is lacking?",
-    answer: "For now we don't offer anything other than decentralisation, if a coin is on coingecko you can already import " +
-      "it on the app without needing anyone's permission. Once we have finished the node, " +
-      "companies can list their coin directly without anyone's permission, " +
-      "the community will vote if the data is correct through a governance " +
-      "smart contract and the coin will be listed automatically in a trustless way."
+    answer: "We offer decentralised listings where $SAR holders can vote for coins to be listed on Cerberus. " +
+      "It is the first of it's kind decentralised coin listing, that brings a transparent alternative to big crypto monopolies like Coin Market Cap"
   },
   {
     key: 3,

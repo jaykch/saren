@@ -1,7 +1,7 @@
 import React from "react"
 import "./community.scss"
 import { Row, Col } from "antd"
-import { FaTelegramPlane, FaGithub, FaDiscord } from "react-icons/fa"
+import { FaTelegramPlane, FaGithub, FaDiscord, FaTwitter, FaLinkedin } from "react-icons/fa"
 import { RightOutlined } from "@ant-design/icons"
 
 const Community = () => {
@@ -24,6 +24,26 @@ const Community = () => {
                 </span>
                 <span className="subtitle">
                   Join the talk <RightOutlined />
+                </span>
+              </a>
+            </li>
+            <li className="card-wrapper">
+              <a href="https://twitter.com/saren_io" target="_blank" rel="noreferrer noopener" className="card">
+                <span className="title">
+                <FaTwitter />Twitter
+                </span>
+                <span className="subtitle">
+                  Read the latest <RightOutlined />
+                </span>
+              </a>
+            </li>
+            <li className="card-wrapper">
+              <a href="https://www.linkedin.com/company/saren-io" target="_blank" rel="noreferrer noopener" className="card">
+                <span className="title">
+                <FaLinkedin />Linkedin
+                </span>
+                <span className="subtitle">
+                  View the people <RightOutlined />
                 </span>
               </a>
             </li>

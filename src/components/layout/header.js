@@ -27,7 +27,9 @@ const ResponsiveNavbar = () => {
           <AnchorLink to="/cerberus"><span>Cerberus</span></AnchorLink>
         </li>
         <li>
-          <AnchorLink to="/#blog"><span>Blog</span></AnchorLink>
+          <a href="https://blog.saren.io/" rel="noreferrer noopener" target="_blank">
+            <span>Blog</span>
+          </a>
         </li>
         <li>
           <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>

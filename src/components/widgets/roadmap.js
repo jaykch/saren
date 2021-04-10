@@ -20,17 +20,16 @@ const RoadMap = () => {
               <p>Coin List</p>
               <p>Blog</p>
             </Timeline.Item>
-            <Timeline.Item label="Q1 2021" dot={<ClockCircleOutlined />}>
-              <p>Whitepaper V1</p>
+            <Timeline.Item label="Q1 2021" color="green" dot={<CheckSquareOutlined />}>
               <p>Proof Of Engagement Token</p>
               <p>Saren community</p>
             </Timeline.Item>
             <Timeline.Item label="Q2 2021" dot={<ClockCircleOutlined />}>
-              <p>Investment Strategy (ICO or Private)</p>
               <p>Shill My Coins App</p>
-              <p>Subscription protocol</p>
+              <p>Decentralised coin listngs</p>
             </Timeline.Item>
             <Timeline.Item label="Q3 2021" dot={<ClockCircleOutlined />}>
+              <p>Subscription protocol</p>
               <p>Creator subscription App</p>
               <p>Crypto subscription financial tools</p>
             </Timeline.Item>
