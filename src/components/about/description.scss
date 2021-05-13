@@ -1,0 +1,42 @@
+.descriptionAbout {
+  .ant-row {
+    padding-top: 50px;
+    padding-bottom: 200px;
+      }
+
+  .text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  @media only screen and (max-width: 764px) {
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+    .ant-row {
+      padding: 2rem 0;
+    }
+  }
+
+  @media only screen and (min-width: 764px) {
+    .desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+  }
+}
