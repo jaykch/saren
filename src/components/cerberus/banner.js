@@ -22,7 +22,7 @@ const Banner = () => {
               </PremiumButton>
             </div>
           </Col>
-          <Col md={12} xs={24} className="image">
+          <Col lg={12} xs={24} className="image">
             <img src={home} alt="Banner" />
           </Col>
         </Row>

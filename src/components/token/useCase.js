@@ -24,7 +24,8 @@ const UseCase = () => {
               which will be redistributed amongst the app users to build a self-sustained ecosystem.
             </li>
             <li><strong>Cerberus: </strong>Once the decentralisation of Cerberus is complete, companies will have to
-              hold Saren tokens to be able to list new coins on Cerberus.
+              hold Saren tokens to be able to list new coins on Cerberus. Additionally, $SAR holders now have to approve
+              any new coins listed on cerberus through a vote.
             </li>
             <li><strong>Shill my coins app: </strong>Our next app that will be released in Q2 2021 will be a reddit like
               forum where Saren holders will be able to make a post about any coin listed on Cerberus.

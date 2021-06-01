@@ -35,6 +35,9 @@ const ResponsiveNavbar = () => {
           <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>
         </li>
         <li>
+          <AnchorLink to="/about"><span>About Us</span></AnchorLink>
+        </li>
+        <li>
           <AnchorLink to="/#contact"><span>Contact</span></AnchorLink>
         </li>
       </ul>
@@ -67,6 +70,9 @@ const LargeNavbar = () => {
         </li>
         <li>
           <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/about"><span>About Us</span></AnchorLink>
         </li>
         <li>
           <AnchorLink to="/#contact"><span>Contact</span></AnchorLink>

@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import Banner from "../components/home/banner"
-import Cerberus from "../components/widgets/cerberus"
 import Contact from "../components/widgets/contact"
 import RoadMap from "../components/widgets/roadmap"
 import Community from "../components/widgets/community"
@@ -12,7 +11,7 @@ import Faqs from "../components/widgets/faqs"
 import Future from "../components/widgets/future"
 const IndexPage = () => (
   <Layout>
-    <SEO title="Saren.io" />
+    <SEO title="Home" />
     <Banner/>
     {/*<Cerberus/>*/}
     <RoadMap/>

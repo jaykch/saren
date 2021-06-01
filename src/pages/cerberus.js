@@ -9,7 +9,7 @@ import Faqs from "../components/cerberus/faqs"
 const CerberusPage = () => {
   return (
     <Layout>
-      <SEO title="Saren.io" />
+      <SEO title="Cerberus" />
       <Banner/>
       <Why/>
       <Vision/>

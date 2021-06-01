@@ -10,7 +10,7 @@ const Banner = () => {
     <section className="banner" id="banner">
       <div className="container">
         <Row>
-          <Col md={12} xs={24} className="image">
+          <Col lg={12} xs={24} className="image">
             <img src={home} alt="Banner" />
           </Col>
           <Col lg={12} xs={24}>

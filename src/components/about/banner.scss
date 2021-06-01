@@ -1,29 +1,35 @@
-.banner {
-  background-color: #6b54ff9c;
-  min-height: 85vh;
+.aboutBanner {
+  //background-color: #ff54e8;
+  min-height: 75vh;
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
 
   display: flex;
   align-items: center;
 
-  img{
-    width: 90%;
-  }
+  .logoContainer {
+    font-size: 3rem;
+    font-weight: 600;
 
-  @media only screen and (max-width: 992px) {
-    .image{
-      display: none;
+    p {
+      letter-spacing: 0.1rem !important;
+    }
+
+    @media only screen and (max-width: 764px) {
+      font-size: 1.8rem;
+      letter-spacing: 0.5rem;
+      margin-top: 3rem;
     }
   }
 
   .text {
 
-    .logoContainer{
+    .logoContainer {
       display: flex;
       justify-content: center;
       align-items: center;
-      .logo{
+
+      .logo {
         width: 50%;
       }
     }
@@ -42,7 +48,7 @@
       letter-spacing: 0.8px;
     }
 
-    .premium-button{
+    .premium-button {
       margin: auto;
     }
   }

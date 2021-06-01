@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cryptocurrency Financial Tools`,
+    title: `Saren.io`,
     description: `Saren's financial tools provide reliable cryptocurrency data and economic strategies to help it's consumers with a social interactive market to support blockchain development.`,
     author: `@jaykch`,
   },

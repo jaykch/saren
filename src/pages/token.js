@@ -11,7 +11,7 @@ import UseCase from "../components/token/UseCase"
 const TokenPage = () => {
   return (
     <Layout>
-      <SEO title="Saren.io" />
+      <SEO title="Token" />
       <Banner />
       <Details />
       <Where />
