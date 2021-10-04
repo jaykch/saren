@@ -1,20 +1,24 @@
-.roadmap{
+.roadmap {
+  padding: 4rem 10px;
 
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-
-  p{
-    margin-bottom: 0;
-  }
-
-  h2{
+  h2 {
     text-align: center;
     margin-bottom: 2rem;
   }
 
-  .ant-timeline-item-content, .ant-timeline-item-label{
-    letter-spacing: 0.5px;
-    font-size: 1.2rem;
-    font-weight: 500;
+  .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background: linear-gradient(92.98deg, rgba(212, 206, 223, 0) -42.96%, rgba(0, 15, 153, 0.61) 48.07%, #F60FDF 73.69%, rgba(246, 15, 223, 0.1) 93.66%) !important;
+  }
+
+  .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+    color: #1F0359;
+  }
+
+  .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+    background: #1F0359;
+  }
+
+  .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+    background: linear-gradient(93.09deg, #000F99 -42.93%, #F60FDF 133.16%);
   }
 }

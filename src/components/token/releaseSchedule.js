@@ -1,22 +1,19 @@
 import React from "react"
-import { Col, Divider, Row, Steps } from "antd"
+import { Col, Row } from "antd"
 import "./releaseSchedule.scss"
 
-const {Step} = Steps;
 
 const ReleaseSchedule = () => {
   return (
     <section className="releaseSchedule container">
       <Row>
-      <h2>Release Schedule</h2>
-      <Divider dashed />
-        <Col span={24}>
-          <p>Each round of tokens will be released on different exchanges as liquidity from the liquidity reserves. Round 1 was done on Uniswap. Additional rounds will be completed as project gains traction.</p>
-          <Steps current={0} percent={0}>
-            <Step title="Round 1-5" description="30,000,000 Tokens" />
-            <Step title="Round 6-7" description="20,000,000 Tokens" />
-            <Step title="Round 7-14" description="10,000,000 Tokens" />
-          </Steps>
+        <Col lg={8}>
+          <h2>Vesting Schedule</h2>
+        </Col>
+        <Col lg={16}>
+          <p>Team tokens will be locked for 1 year. Additionally, development and marketing tokens will be unlocked at
+            500,000 tokens per month.</p>
+          <p>Any changes to the vesting schedule will need to be voted in through the governance protocol.</p>
         </Col>
       </Row>
     </section>

@@ -1,7 +1,7 @@
 import React from "react"
 import "./banner.scss"
 import { Col, Row } from "antd"
-import home from "../../images/cerberus/banner.svg"
+import banner from "../../images/home/future.svg"
 import PremiumButton from "../misc/premiumButton"
 
 const Banner = () => {
@@ -11,19 +11,15 @@ const Banner = () => {
         <Row>
           <Col lg={12} xs={24}>
             <div className="text">
-              <div className="logoContainer">
-                CERBERUS
-              </div>
-              <h1>Advanced crytpo tracking and analytics.</h1>
+              <h1>Advanced crypto tracking and analytics</h1>
               <p>A decentralised crypto tracking app built for the crypto community.</p>
-              <br />
-              <PremiumButton link="https://cerberus.saren.io/" color="inverted">
+              <PremiumButton link="https://app.saren.io/">
                 Open App
               </PremiumButton>
             </div>
           </Col>
           <Col lg={12} xs={24} className="image">
-            <img src={home} alt="Banner" />
+            <img src={banner} alt="Banner" />
           </Col>
         </Row>
       </div>

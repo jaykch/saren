@@ -1,5 +1,5 @@
 .aboutTeam {
-  padding: 0 0 8rem;
+  padding: 0 10px 4rem;
 
   .employees {
     display: flex;
@@ -14,7 +14,7 @@
 
       .imageContainer {
         img {
-          border-radius: 100%;
+          border-radius: 25px;
           width: 200px;
         }
       }
@@ -24,11 +24,11 @@
 
         .name {
           font-weight: 700;
-          font-size: 1.4rem;
+          font-size: 1.2rem;
         }
 
         .position {
-          font-size: 1.1rem;
+          font-size: 1rem;
           font-weight: 500;
           margin-bottom: 0.5rem;
         }
@@ -50,10 +50,6 @@
   }
 
   p {
-    text-align: center;
-    font-size: 1.1rem;
-    padding: 0 10px;
-    color: #6d7380;
     max-width: 500px;
     margin: 0 auto 4rem;
   }

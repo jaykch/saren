@@ -1,44 +1,37 @@
 import PropTypes from "prop-types"
 import React from "react"
 import "./header.scss"
-import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { BsArrowUpRight } from "react-icons/bs"
-import logo from "../../images/logo-letters.png"
-import icon from "../../images/icon.png"
+import logo from "../../images/logo.svg"
+import { Link } from "gatsby"
 
 const ResponsiveNavbar = () => {
   return (
     <div className="responsive-navbar">
-      <AnchorLink to="/#banner" className="logo">
-        <img src={icon} alt="Saren" />
-      </AnchorLink>
+      <Link to="/" className="logo">
+        <img src={logo} alt="Saren" />
+      </Link>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
-      <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
+      <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"/></label>
       <ul className="menu">
         <li>
-          <a href="https://cerberus.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
+          <a href="https://app.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
             <span>Launch App  <BsArrowUpRight /></span>
           </a>
         </li>
         <li>
-          <AnchorLink to="/token"><span>Token</span></AnchorLink>
+          <Link to="/token"><span>Token</span></Link>
         </li>
         <li>
-          <AnchorLink to="/cerberus"><span>Cerberus</span></AnchorLink>
+          <Link to="/app"><span>App</span></Link>
         </li>
         <li>
-          <a href="https://blog.saren.io/" rel="noreferrer noopener" target="_blank">
+          <Link to="/about"><span>About Us</span></Link>
+        </li>
+        <li>
+          <a href="https://medium.com/@Saren_io" rel="noreferrer noopener" target="_blank">
             <span>Blog</span>
           </a>
-        </li>
-        <li>
-          <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>
-        </li>
-        <li>
-          <AnchorLink to="/about"><span>About Us</span></AnchorLink>
-        </li>
-        <li>
-          <AnchorLink to="/#contact"><span>Contact</span></AnchorLink>
         </li>
       </ul>
     </div>
@@ -48,34 +41,28 @@ const ResponsiveNavbar = () => {
 const LargeNavbar = () => {
   return (
     <div className="large-navbar">
-      <AnchorLink to="/#banner" className="logo">
+      <Link to="/" className="logo">
         <img src={logo} alt="Saren" />
-      </AnchorLink>
+      </Link>
       <ul className="links">
         <li>
-          <a href="https://cerberus.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
+          <a href="https://app.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
             <span>Launch App  <BsArrowUpRight /></span>
           </a>
         </li>
         <li>
-          <AnchorLink to="/token"><span>Token</span></AnchorLink>
+          <Link to="/token"><span>Token</span></Link>
         </li>
         <li>
-          <AnchorLink to="/cerberus"><span>Cerberus</span></AnchorLink>
+          <Link to="/app"><span>App</span></Link>
         </li>
         <li>
-          <a href="https://blog.saren.io/" rel="noreferrer noopener" target="_blank">
+          <Link to="/about"><span>About Us</span></Link>
+        </li>
+        <li>
+          <a href="https://medium.com/@Saren_io" rel="noreferrer noopener" target="_blank">
             <span>Blog</span>
           </a>
-        </li>
-        <li>
-          <AnchorLink to="/#faqs"><span>FAQs</span></AnchorLink>
-        </li>
-        <li>
-          <AnchorLink to="/about"><span>About Us</span></AnchorLink>
-        </li>
-        <li>
-          <AnchorLink to="/#contact"><span>Contact</span></AnchorLink>
         </li>
       </ul>
     </div>

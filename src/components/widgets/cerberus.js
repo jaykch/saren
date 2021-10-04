@@ -1,8 +1,8 @@
 import React from "react"
 import "./cerberus.scss"
-import pricesThumb from "../../images/cerberus/pricesThumb.jpg"
-import detailsThumb from "../../images/cerberus/analytics.svg"
-import walletThumb from "../../images/cerberus/walletThumb.jpg"
+import pricesThumb from "../../images/app/pricesThumb.jpg"
+import detailsThumb from "../../images/app/analytics.svg"
+import walletThumb from "../../images/app/walletThumb.jpg"
 import prices from "../../videos/prices.mp4"
 import { Col, Row, Tabs } from "antd"
 import PremiumButton from "../misc/premiumButton"
@@ -16,7 +16,7 @@ const Cerberus = () => {
     <section className="cerberus container" id="cerberus">
       <Row>
         <Col md={{span:20, offset:2}}>
-          <h2>Explore 100s of cryptocurrencies with our Cerberus tool</h2>
+          <h2>Explore 100s of cryptocurrencies with our tool</h2>
         </Col>
       </Row>
       <Row>

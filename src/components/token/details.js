@@ -1,45 +1,57 @@
 import React from "react"
 import "./details.scss"
-import { Col, Row, Divider, Typography } from "antd"
+import { Typography } from "antd"
+
+import ticker from "../../images/token/ticker.svg"
+import name from "../../images/token/name.svg"
+import type from "../../images/token/type.svg"
+import price from "../../images/token/price.svg"
+import circulating from "../../images/token/circulating.svg"
+import total from "../../images/token/total.svg"
+import contract from "../../images/token/contract.svg"
 
 const { Paragraph } = Typography
 
 const Details = () => {
   return (
-    <section className="tokenDetails container">
-      <Row>
-        <h2>Token Details</h2>
-        <Col span={24}>
-          <Divider dashed />
-          <div className="coinStats">
-            <ul className="labels">
-              <li>Ticker</li>
-              <li>Name</li>
-              <li>Type</li>
-              <li>Initial Price</li>
-              <li>Circulating Supply</li>
-              <li>Total Supply</li>
-              <li>Contract Address</li>
-            </ul>
-            <ul className="values">
-              <li>$SAR</li>
-              <li>Saren</li>
-              <li>ERC20</li>
-              <li>$0.001</li>
-              <li>30,000,000</li>
-              <li>1,000,000,000</li>
-              <li className="desktop">
-                <Paragraph
-                  copyable={{ text: "0xbd4a858139b155219e2c8d10135003fdef720b6b" }}>0xbd4a858139b155219e2c8d10135003fdef720b6b</Paragraph>
-              </li>
-              <li className="mobile">
-                <Paragraph copyable={{ text: "0xbd4a858139b155219e2c8d10135003fdef720b6b" }}>0xbd...b6b</Paragraph>
-              </li>
-            </ul>
-          </div>
-        </Col>
-      </Row>
-    </section>
+    <div className="tokenDetails container">
+      <h2>What is $ORBIT?</h2>
+      <div className="coinStats">
+        <table>
+          <tr>
+            <td><img src={ticker} alt="Ticker" />Ticker</td>
+            <td>$ORBIT</td>
+          </tr>
+          <tr>
+            <td><img src={name} alt="Name" />Name</td>
+            <td>Orbit</td>
+          </tr>
+          <tr>
+            <td><img src={type} alt="Type" />Type</td>
+            <td>ERC20</td>
+          </tr>
+          <tr>
+            <td><img src={price} alt="Price" />Initial Price</td>
+            <td>$0.01</td>
+          </tr>
+          <tr>
+            <td><img src={circulating} alt="Circulating" />Circulating Supply</td>
+            <td>50,000,000</td>
+
+          </tr>
+          <tr>
+            <td><img src={total} alt="Total" />Total Supply</td>
+            <td>100,000,000</td>
+          </tr>
+          <tr>
+            <td><img src={contract} alt="Contract" />Contract Address</td>
+            <td>
+              <Paragraph copyable={{ text: "0xbd4a858139b155219e2c8d10135003fdef720b6b" }}>0xbd...b6b</Paragraph>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Saren.io`,
+    title: `Crypto Tracking App`,
     description: `Saren's financial tools provide reliable cryptocurrency data and economic strategies to help it's consumers with a social interactive market to support blockchain development.`,
     author: `@jaykch`,
   },
@@ -13,12 +13,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: "gatsby-plugin-anchor-links",
-      options: {
-        offset: -100
-      }
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
@@ -28,10 +22,10 @@ module.exports = {
         name: `saren-io`,
         short_name: `Saren.io`,
         start_url: `/`,
-        background_color: '#fafafa',
-        theme_color: '#0a0a0a',
+        background_color: '#1F0359',
+        theme_color: '#1F0359',
         display: `minimal-ui`,
-        icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/icon.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

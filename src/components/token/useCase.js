@@ -7,30 +7,33 @@ const UseCase = () => {
   return (
     <section className="useCase container">
       <Row>
-        <Col lg={12} className="imageContainer">
-          <img src={useCase} alt="Use Case" />
-        </Col>
-        <Col lg={12} className="text">
+        <Col lg={8} className="text">
           <h2>Use Cases</h2>
           <ul>
             <li><strong>Governance Protocol: </strong>Any governance decisions like new token rewards, changes to
-              liquidity reserves etc. will be done through a protocol which will use Saren tokens as primary voting
+              development/market reserves etc. will be done through a protocol which will use Saren tokens as primary
+              voting
               power.
             </li>
-            <li><strong>Subscription protocol: </strong>Holders of Saren will get reduced fees on the upcoming
-              subscription protocol in Q3.
-            </li>
-            <li><strong>Advertisements: </strong>Any advertisements on Saren apps will have to paid for in Saren tokens
-              which will be redistributed amongst the app users to build a self-sustained ecosystem.
-            </li>
-            <li><strong>Cerberus: </strong>Once the decentralisation of Cerberus is complete, companies will have to
-              hold Saren tokens to be able to list new coins on Cerberus. Additionally, $SAR holders now have to approve
-              any new coins listed on cerberus through a vote.
-            </li>
-            <li><strong>Shill my coins app: </strong>Our next app that will be released in Q2 2021 will be a reddit like
-              forum where Saren holders will be able to make a post about any coin listed on Cerberus.
-            </li>
           </ul>
+        </Col>
+        <Col lg={16} className="imageContainer">
+          <img src={useCase} alt="Use Case" />
+        </Col>
+        <Col lg={8}>
+          <p><strong>Advertisements: </strong>Any advertisements on Saren apps will get a discount if paid in our native
+            token. Profits from Advertisements will be used to buyback part of the token supply.
+          </p>
+        </Col>
+        <Col lg={8}>
+          <p><strong>App: </strong>Once the decentralisation of our app is complete, companies holding $ORBIT will be
+            able to bid on advertisements directly on our app.
+          </p>
+        </Col>
+        <Col lg={8}>
+          <p><strong>Comments and User Profiles: </strong>$ORBIT holders will get special badges on their profiles and
+            will be able to opt in for special reports and rewards like NFT drops.
+          </p>
         </Col>
       </Row>
     </section>

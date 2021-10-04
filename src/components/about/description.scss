@@ -1,22 +1,18 @@
 .aboutDescription {
-
   padding: 0 0 6rem;
+  text-align: center;
 
-  img{
-    width: 70%;
-    margin: 2rem auto;
-    display: block;
+  p{
+    padding: 0 10px;
+    max-width: 800px;
+    margin: auto;
   }
 
   h2{
-    text-align: center;
-    font-size: 2rem;
+    padding: 0 1rem;
   }
 
-  p{
-    font-size: 1.1rem;
-    padding: 0 10px;
-    text-align: center;
-    color: #6d7380;
+  @media screen and (max-width: 768px) {
+    text-align: left;
   }
 }

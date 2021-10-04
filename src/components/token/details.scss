@@ -1,44 +1,24 @@
 .tokenDetails {
-  .ant-row {
-    padding-top: 4rem;
-  }
 
-  h2 {
-    margin: 0;
-  }
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100%;
 
-  @media only screen and (max-width: 764px) {
-    .mobile{
-      display: block;
-    }
-    .desktop{
-      display: none;
-    }
-  }
-
-  @media only screen and (min-width: 764px) {
-    .desktop{
-      display: block;
-    }
-    .mobile{
-      display: none;
-    }
-  }
-
-  .coinStats {
-    display: flex;
-    justify-content: space-around;
-    font-size: 1rem;
-    padding-top: 2rem;
-
-    .labels {
-      color: rgba(0, 0, 0, .45);
+  table {
+    td {
+      padding: 5px 0;
     }
 
-    .values {
-      list-style: none;
-      font-weight: 600;
-      text-align: right;
+    tr{
+      td:nth-child(2){
+        padding-left: 1rem;
+        font-weight: bold;
+      }
+    }
+
+    div.ant-typography, .ant-typography p {
+      margin-bottom: 0;
     }
   }
 }

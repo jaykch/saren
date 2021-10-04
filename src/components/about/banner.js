@@ -9,20 +9,20 @@ const Banner = () => {
     <section className="aboutBanner">
       <div className="container">
         <Row>
-          <Col lg={12} xs={24} className="image">
-            <img src={banner} alt="Banner" />
-          </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={8} xs={24}>
             <div className="text">
-              <h1>About Us</h1>
+              <h1>What is Saren?</h1>
               <div className="logoContainer">
-                <p>We are a team of novice and experts in crypto working towards decentralisation of traditional
-                  applications.</p>
+                <p>Saren is a cryptocurrency data aggregator that supports over 1,000 crypto-assets. Saren is one of the
+                  world's largest independent sources of trustworthy cryptocurrency statistics.</p>
               </div>
-              <PremiumButton link="https://www.linkedin.com/company/saren-io/" color="inverted">
+              <PremiumButton link="https://www.linkedin.com/company/saren-io/">
                 View Linkedin
               </PremiumButton>
             </div>
+          </Col>
+          <Col lg={16} xs={24} className="image">
+            <img src={banner} alt="Banner" />
           </Col>
         </Row>
       </div>

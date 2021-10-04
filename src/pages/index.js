@@ -2,25 +2,28 @@ import React from "react"
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import Banner from "../components/home/banner"
-import Contact from "../components/widgets/contact"
-import RoadMap from "../components/widgets/roadmap"
 import Community from "../components/widgets/community"
-import WhySaren from "../components/widgets/whySaren"
+import WhySaren from "../components/home/why"
 import Blog from "../components/widgets/blog"
-import Faqs from "../components/widgets/faqs"
 import Future from "../components/widgets/future"
+import Partners from "../components/about/partners"
+import Investors from "../components/about/investors"
+import RoadMap from "../components/widgets/roadmap"
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <Banner/>
+    <SEO title="Saren" />
+    <Banner />
+    <WhySaren />
     {/*<Cerberus/>*/}
-    <RoadMap/>
-    <Community/>
-    <WhySaren/>
-    <Blog/>
-    <Future/>
-    <Faqs/>
-    <Contact/>
+    <Partners />
+    <Investors />
+    <Future />
+    <Community />
+    <RoadMap />
+    <Blog />
+    {/*<Faqs />*/}
+    {/*<Contact />*/}
   </Layout>
 )
 

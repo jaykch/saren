@@ -17,10 +17,10 @@
   line-height: 1.68;
   letter-spacing: .2rem;
   font-size: .7rem;
-  background-color: #6b54ff;
-  background-image: -webkit-linear-gradient(30deg, #fafafa 50%, transparent 0);
-  background-image: -webkit-linear-gradient(60deg, #fafafa 50%, transparent 0);
-  background-image: linear-gradient(30deg, #fafafa 50%, transparent 0);
+  background-color: #cc49e7;
+  background-image: -webkit-linear-gradient(30deg, #1F0359 50%, transparent 0);
+  background-image: -webkit-linear-gradient(60deg, #1F0359 50%, transparent 0);
+  background-image: linear-gradient(30deg, #1F0359 50%, transparent 0);
   background-size: 500px;
   background-repeat: no-repeat;
   background-position: 100%;
@@ -35,16 +35,16 @@
   &:hover{
     background-position: 0;
     text-decoration: none;
-    color: black;
+    color: white;
     border: none;
   }
 
   &.inverted{
     background-color: #fafafa;
-    color: black;
-    background-image: -webkit-linear-gradient(30deg, #6b54ff 50%, transparent 0);
-    background-image: -webkit-linear-gradient(60deg, #6b54ff 50%, transparent 0);
-    background-image: linear-gradient(30deg, #6b54ff 50%, transparent 0);
+    color: #442A78;
+    background-image: -webkit-linear-gradient(30deg, #cc49e7 50%, transparent 0);
+    background-image: -webkit-linear-gradient(60deg, #cc49e7 50%, transparent 0);
+    background-image: linear-gradient(30deg, #cc49e7 50%, transparent 0);
 
     &:hover{
       color: #fafafa;

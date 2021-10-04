@@ -14,7 +14,7 @@ const data = [
   },
   {
     key: 2,
-    question: "What does cerberus offer that the competition is lacking?",
+    question: "What does app offer that the competition is lacking?",
     answer: "We offer decentralised listings where $SAR holders can vote for coins to be listed on Cerberus. " +
       "It is the first of it's kind decentralised coin listing, that brings a transparent alternative to big crypto monopolies like Coin Market Cap"
   },

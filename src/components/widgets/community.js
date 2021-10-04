@@ -4,94 +4,83 @@ import { Row, Col } from "antd"
 import { FaTelegramPlane, FaGithub, FaDiscord, FaTwitter, FaLinkedin } from "react-icons/fa"
 import { RightOutlined } from "@ant-design/icons"
 
+
+const links = [
+  {
+    title: "Telegram",
+    subtitle: "Join the talk",
+    url: "https://t.me/sarencommunity",
+    logo: <FaTelegramPlane />
+  },
+  {
+    title: "Twitter",
+    subtitle: "Read the latest",
+    url: "https://twitter.com/saren_io",
+    logo: <FaTwitter />
+  },
+  {
+    title: "Linkedin",
+    subtitle: "View the people",
+    url: "https://www.linkedin.com/company/saren-io",
+    logo: <FaLinkedin />
+  },
+  {
+    title: "Discord",
+    subtitle: "Get involved",
+    url: "https://discord.gg/e9qtVrtukg",
+    logo: <FaDiscord />
+  },
+  {
+    title: "Github",
+    subtitle: "Create with us",
+    url: "https://github.com/saren-io",
+    logo: <FaGithub />
+  }
+]
+
 const Community = () => {
   return (
     <section className="community container">
       <Row>
         <Col md={{ span: 16, offset: 4 }}>
-          <h2>Join Saren's global open-source community</h2>
-          <p>Saren's financial tools provide reliable cryptocurrency data and economic strategies to help it's consumers
-            with a social interactive market to support blockchain development.</p>
+          <span className="banner-title">Changing the way you analyse the crypto market!</span>
         </Col>
       </Row>
-      <Row>
-        <Col md={{ span: 18, offset: 3 }}>
-          <ul className="cards-container">
-            <li className="card-wrapper">
-              <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">
-                <span className="title">
-                <FaTelegramPlane />Telegram
-                </span>
-                <span className="subtitle">
-                  Join the talk <RightOutlined />
-                </span>
-              </a>
-            </li>
-            <li className="card-wrapper">
-              <a href="https://twitter.com/saren_io" target="_blank" rel="noreferrer noopener" className="card">
-                <span className="title">
-                <FaTwitter />Twitter
-                </span>
-                <span className="subtitle">
-                  Read the latest <RightOutlined />
-                </span>
-              </a>
-            </li>
-            <li className="card-wrapper">
-              <a href="https://www.linkedin.com/company/saren-io" target="_blank" rel="noreferrer noopener" className="card">
-                <span className="title">
-                <FaLinkedin />Linkedin
-                </span>
-                <span className="subtitle">
-                  View the people <RightOutlined />
-                </span>
-              </a>
-            </li>
-            <li className="card-wrapper">
-              <a href="https://discord.gg/e9qtVrtukg" target="_blank" rel="noreferrer noopener" className="card">
-                <span className="title">
-                  <FaDiscord />Discord
-                </span>
-                <span className="subtitle">
-                  Get involved <RightOutlined />
-                </span>
-              </a>
-            </li>
-            <li className="card-wrapper">
-              <a href="https://github.com/saren-io" target="_blank" rel="noreferrer noopener" className="card">
-                <span className="title">
-                  <FaGithub /> Github
-                </span>
-                <span className="subtitle">
-                  Create with us <RightOutlined />
-                </span>
-              </a>
-            </li>
-            {/*<li className="card-wrapper">*/}
-            {/*  <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">*/}
-            {/*    <span className="title">*/}
-            {/*      <FaYoutube />Youtube*/}
-            {/*    </span>*/}
-            {/*    <span className="subtitle">*/}
-            {/*      View our videos <RightOutlined />*/}
-            {/*    </span>*/}
-            {/*  </a>*/}
-
-            {/*</li>*/}
-            {/*<li className="card-wrapper">*/}
-            {/*  <a href="https://t.me/sarencommunity" target="_blank" rel="noreferrer noopener" className="card">*/}
-            {/*    <span className="title">*/}
-            {/*      <FaTwitter />Twitter*/}
-            {/*    </span>*/}
-            {/*    <span className="subtitle">*/}
-            {/*      Latest News <RightOutlined />*/}
-            {/*    </span>*/}
-            {/*  </a>*/}
-            {/*</li>*/}
-          </ul>
-        </Col>
-      </Row>
+      <div className="community-links">
+        <Row>
+          <Col md={{ span: 10, offset: 2 }}>
+            <span className="subtitle">Join Saren's global open-source community</span>
+          </Col>
+          <Col md={{ span: 10 }}>
+            <p>Saren's financial tools provide reliable cryptocurrency data and economic strategies to help it's
+              consumers with a social interactive market.</p>
+          </Col>
+        </Row>
+        <div className="divide" />
+        <Row>
+          <Col md={{ span: 18, offset: 3 }}>
+            <ul className="cards-container">
+              {links.map(({ title, subtitle, url, logo }, index) =>
+                <SocialLink title={title} subtitle={subtitle} url={url} logo={logo} index={index} />)}
+            </ul>
+          </Col>
+        </Row>
+      </div>
     </section>
+  )
+}
+
+const SocialLink = ({ url, title, subtitle, logo, index }) => {
+  return (
+    <li className="card-wrapper" key={index}>
+      <a href={url} target="_blank" rel="noreferrer noopener" className="card">
+        {logo}
+        <div className="text">
+          <span className="title">{title}</span>
+          <span className="subtitle">{subtitle} <RightOutlined /></span>
+        </div>
+      </a>
+    </li>
   )
 }
 
