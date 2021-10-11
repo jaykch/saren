@@ -12,7 +12,7 @@ const ResponsiveNavbar = () => {
         <img src={logo} alt="Saren" />
       </Link>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
-      <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"/></label>
+      <label className="menu-icon" htmlFor="menu-btn"><span className="navicon" /></label>
       <ul className="menu">
         <li>
           <a href="https://app.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
@@ -46,11 +46,6 @@ const LargeNavbar = () => {
       </Link>
       <ul className="links">
         <li>
-          <a href="https://app.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
-            <span>Launch App  <BsArrowUpRight /></span>
-          </a>
-        </li>
-        <li>
           <Link to="/token"><span>Token</span></Link>
         </li>
         <li>
@@ -62,6 +57,11 @@ const LargeNavbar = () => {
         <li>
           <a href="https://medium.com/@Saren_io" rel="noreferrer noopener" target="_blank">
             <span>Blog</span>
+          </a>
+        </li>
+        <li className="bordered">
+          <a href="https://app.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
+            <span>Launch App  <BsArrowUpRight /></span>
           </a>
         </li>
       </ul>

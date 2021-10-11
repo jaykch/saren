@@ -9,6 +9,7 @@ import Future from "../components/widgets/future"
 import Partners from "../components/about/partners"
 import Investors from "../components/about/investors"
 import RoadMap from "../components/widgets/roadmap"
+import PartnersInvestors from "../components/widgets/partnersInvestors"
 
 const IndexPage = () => (
   <Layout>
@@ -16,11 +17,10 @@ const IndexPage = () => (
     <Banner />
     <WhySaren />
     {/*<Cerberus/>*/}
-    <Partners />
-    <Investors />
     <Future />
     <Community />
     <RoadMap />
+    <PartnersInvestors />
     <Blog />
     {/*<Faqs />*/}
     {/*<Contact />*/}

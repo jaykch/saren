@@ -1,0 +1,27 @@
+.whySaren {
+  padding: 4rem 0;
+
+  .subtitle {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  span.gradient{
+    background: -webkit-linear-gradient(313.09deg, #000F99, #F60FDF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .image {
+    text-align: center;
+
+    .cancelProof {
+      font-weight: bolder;
+      font-size: 3rem;
+
+      .proof{
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

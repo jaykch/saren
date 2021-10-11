@@ -13,6 +13,10 @@ const Description = () => {
           <p>We aim to create a set of financial instruments that would help bring in economic fairness to the
             blockchain community by giving access to advanced features like NUPL rating, on-chain analysis, fair
             subscriptions and advanced analytics.</p>
+          <br />
+          <p>Interested in learning more? Get in touch at
+            <strong><a href="mailto:support@saren.io"> support@saren.io.</a></strong>
+          </p>
         </Col>
       </Row>
     </section>

@@ -43,12 +43,12 @@ const Details = () => {
             <td><img src={total} alt="Total" />Total Supply</td>
             <td>100,000,000</td>
           </tr>
-          <tr>
-            <td><img src={contract} alt="Contract" />Contract Address</td>
-            <td>
-              <Paragraph copyable={{ text: "0xbd4a858139b155219e2c8d10135003fdef720b6b" }}>0xbd...b6b</Paragraph>
-            </td>
-          </tr>
+          {/*<tr>*/}
+          {/*  <td><img src={contract} alt="Contract" />Contract Address</td>*/}
+          {/*  <td>*/}
+          {/*    <Paragraph copyable={{ text: "0xbd4a858139b155219e2c8d10135003fdef720b6b" }}>0xbd...b6b</Paragraph>*/}
+          {/*  </td>*/}
+          {/*</tr>*/}
         </table>
       </div>
     </div>

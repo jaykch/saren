@@ -16,9 +16,9 @@ const Why = () => {
           <img src={analytics} alt="Analytics Page" />
         </Col>
         <Col md={12} className="text">
-          <h3>Over 1,000 Coins and new ones added every day!</h3>
+          <h3>Over 1,000 coins and more added every day!</h3>
           <p>Our big repository of crypto projects will keep your eyes glued to the platform for the next big project!
-            Analyse your existing portfolio or explore from our huge library of tokens.</p>
+            analyse your existing portfolio or explore from our huge library of tokens.</p>
         </Col>
         <Col md={12} className="desktop">
           <img src={analytics} alt="Analytics Page" />
@@ -30,14 +30,14 @@ const Why = () => {
           <h3>Advanced analytics to help you make the right decision</h3>
           <p>Our advanced analytical tools cover everything there is to know about all listed tokens. </p>
           <p>Detailed data like github pushes, explorers, social links and tweets straight from the app will help you
-            make the right decision!</p>
+            make the right decision.</p>
         </Col>
         <Col md={12} className="mobile">
           <img src={addCoin} alt="Add Coin Page" />
         </Col>
         <Col md={12} className="text">
-          <h3>Extensive filters to help find you the most suitable token</h3>
-          <p>All coins can be sorted based on market cap, volume, percentage gain, current price and every field available on the interface.</p>
+          <h3>Extensive filters to help you find the most suitable token</h3>
+          <p>All coins can be sorted based on market cap, volume, percentage gain, current price and many more filters.</p>
         </Col>
         <Col md={12} className="desktop">
           <img src={addCoin} alt="Add Coin Page" />

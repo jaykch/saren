@@ -9,7 +9,7 @@ const links = [
   {
     title: "Telegram",
     subtitle: "Join the talk",
-    url: "https://t.me/sarencommunity",
+    url: "https://t.me/saren_channel",
     logo: <FaTelegramPlane />
   },
   {
@@ -53,7 +53,7 @@ const Community = () => {
           </Col>
           <Col md={{ span: 10 }}>
             <p>Saren's financial tools provide reliable cryptocurrency data and economic strategies to help it's
-              consumers with a social interactive market.</p>
+              consumers with a socially interactive market.</p>
           </Col>
         </Row>
         <div className="divide" />

@@ -10,10 +10,8 @@ const UseCase = () => {
         <Col lg={8} className="text">
           <h2>Use Cases</h2>
           <ul>
-            <li><strong>Governance Protocol: </strong>Any governance decisions like new token rewards, changes to
-              development/market reserves etc. will be done through a protocol which will use Saren tokens as primary
-              voting
-              power.
+            <li><strong>DAO: </strong>Any governance decisions like new token rewards, changes to development/market
+              reserves etc. will be done through a protocol which will use Saren tokens as primary voting power.
             </li>
           </ul>
         </Col>

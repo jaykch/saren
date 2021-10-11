@@ -14,8 +14,8 @@ const Banner = () => {
           </Col>
           <Col lg={8} xs={24}>
             <div className="text">
-              <h1>Decentralised tools to analyse the crypto market</h1>
-              <p>Our range of tools aim to help users make statistically better crypto investment decisions.</p>
+              <h1>Decentralized tools to analyse the crypto market</h1>
+              <p>Gain fundamental market insights curated by the crypto community.</p>
               <PremiumButton link="https://app.saren.io/">
                 App
               </PremiumButton>

@@ -41,7 +41,7 @@ const Footer = () => {
               </ul>
               <ul>
                 <li>
-                  <a href="https://t.me/sarencommunity" target="_blank"
+                  <a href="https://t.me/saren_channel" target="_blank"
                      rel="noreferrer noopener"><FaTelegramPlane /></a>
                 </li>
                 <li>
