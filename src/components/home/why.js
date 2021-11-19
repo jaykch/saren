@@ -10,11 +10,11 @@ const WhySaren = () => {
         <Row>
           <Col lg={8} xs={24}>
             <div className="text">
-              <h2>Saren Explained</h2>
+              <h2>Orbit Explained</h2>
             </div>
           </Col>
           <Col lg={16} xs={24}>
-            <p>Saren is a cryptocurrency data gathering and tracking website that gives users a first-person view of
+            <p>Orbit is a cryptocurrency data gathering and tracking website that gives users a first-person view of
               digital currencies and tools to examine the market thoroughly.</p>
             <p>We measure community growth, open-source development, big events, and on-chain indicators in
               addition to price, volume, and market capitalization.</p>

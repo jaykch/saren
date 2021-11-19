@@ -16,7 +16,7 @@ const Banner = () => {
             <div className="text">
               <h1>Decentralized tools to analyse the crypto market</h1>
               <p>Gain fundamental market insights curated by the crypto community.</p>
-              <PremiumButton link="https://app.saren.io/">
+              <PremiumButton link="https://app.orbitdefi.com/">
                 App
               </PremiumButton>
             </div>

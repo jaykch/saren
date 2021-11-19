@@ -16,7 +16,7 @@ const Footer = () => {
               <img src={footerLogo} alt="Footer Logo" />
               <ul className="info">
                 <li className="copyright">
-                  Copyright © {new Date().getFullYear()} Saren
+                  Copyright © {new Date().getFullYear()} Orbit
                 </li>
                 <li><Link to="/privacy"><span>Privacy Policy</span></Link></li>
                 <li><Link to="/terms"><span>Terms and Conditions</span></Link></li>

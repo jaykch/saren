@@ -13,7 +13,7 @@ import PartnersInvestors from "../components/widgets/partnersInvestors"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Saren" />
+    <SEO title="Orbit" />
     <Banner />
     <WhySaren />
     {/*<Cerberus/>*/}

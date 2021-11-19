@@ -11,7 +11,7 @@ const images = [blog1, blog2, blog3]
 
 const blogs = [
   {
-    title: "Saren Update",
+    title: "Orbit Update",
     description: "We would like to apologise for the lack of communication over the past few weeks...",
     url: "https://medium.com/@Saren_io/saren-update-3791545ed292"
   },

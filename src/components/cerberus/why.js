@@ -10,7 +10,7 @@ const Why = () => {
     <section className="whyCerberus container">
       <Row>
         <Col xs={24}>
-          <h2>Why Saren?</h2>
+          <h2>Why Orbit?</h2>
         </Col>
         <Col md={12} className="mobile">
           <img src={analytics} alt="Analytics Page" />

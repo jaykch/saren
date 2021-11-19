@@ -13,7 +13,7 @@ const Banner = () => {
             <div className="text">
               <h1>Advanced crypto tracking and analytics</h1>
               <p>A decentralised crypto tracking app built for the crypto community.</p>
-              <PremiumButton link="https://app.saren.io/">
+              <PremiumButton link="https://app.orbitdefi.com/">
                 Open App
               </PremiumButton>
             </div>

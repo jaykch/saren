@@ -11,7 +11,7 @@ const UseCase = () => {
           <h2>Use Cases</h2>
           <ul>
             <li><strong>DAO: </strong>Any governance decisions like new token rewards, changes to development/market
-              reserves etc. will be done through a protocol which will use Saren tokens as primary voting power.
+              reserves etc. will be done through a protocol which will use Orbit tokens as primary voting power.
             </li>
           </ul>
         </Col>
@@ -19,7 +19,7 @@ const UseCase = () => {
           <img src={useCase} alt="Use Case" />
         </Col>
         <Col lg={8}>
-          <p><strong>Advertisements: </strong>Any advertisements on Saren apps will get a discount if paid in our native
+          <p><strong>Advertisements: </strong>Any advertisements on Orbit apps will get a discount if paid in our native
             token. Profits from Advertisements will be used to buyback part of the token supply.
           </p>
         </Col>

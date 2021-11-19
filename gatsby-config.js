@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Crypto Tracking App`,
-    description: `Saren's financial tools provide reliable cryptocurrency data and economic strategies to help it's consumers with a social interactive market to support blockchain development.`,
+    description: `Orbit's financial tools provide reliable cryptocurrency data and economic strategies to help it's consumers with a social interactive market to support blockchain development.`,
     author: `@jaykch`,
   },
   plugins: [
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `saren-io`,
-        short_name: `Saren.io`,
+        name: `Orbit`,
+        short_name: `Orbit`,
         start_url: `/`,
         background_color: '#1F0359',
         theme_color: '#1F0359',

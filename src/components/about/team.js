@@ -37,7 +37,7 @@ const Team = () => {
         </Col>
         <Col lg={12}>
           <p>We are always looking to hire new wonderful people, if you think you are a right fit for our company please
-            contact us <a href="mailto:support@saren.io">here.</a></p>
+            contact us <a href="mailto:support@orbitdefi.com">here.</a></p>
         </Col>
         <Col lg={24}>
           <div className="employees">

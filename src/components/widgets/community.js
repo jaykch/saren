@@ -49,10 +49,10 @@ const Community = () => {
       <div className="community-links">
         <Row>
           <Col md={{ span: 10, offset: 2 }}>
-            <span className="subtitle">Join Saren's global open-source community</span>
+            <span className="subtitle">Join Orbit's global open-source community</span>
           </Col>
           <Col md={{ span: 10 }}>
-            <p>Saren's financial tools provide reliable cryptocurrency data and economic strategies to help it's
+            <p>Orbit's financial tools provide reliable cryptocurrency data and economic strategies to help it's
               consumers with a socially interactive market.</p>
           </Col>
         </Row>

@@ -15,7 +15,7 @@ const ResponsiveNavbar = () => {
       <label className="menu-icon" htmlFor="menu-btn"><span className="navicon" /></label>
       <ul className="menu">
         <li>
-          <a href="https://app.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
+          <a href="https://app.orbitdefi.com/" target="_blank" className="external" rel="noreferrer noopener">
             <span>Launch App  <BsArrowUpRight /></span>
           </a>
         </li>
@@ -60,7 +60,7 @@ const LargeNavbar = () => {
           </a>
         </li>
         <li className="bordered">
-          <a href="https://app.saren.io/" target="_blank" className="external" rel="noreferrer noopener">
+          <a href="https://app.orbitdefi.com/" target="_blank" className="external" rel="noreferrer noopener">
             <span>Launch App  <BsArrowUpRight /></span>
           </a>
         </li>

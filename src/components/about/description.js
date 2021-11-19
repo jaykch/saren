@@ -15,7 +15,7 @@ const Description = () => {
             subscriptions and advanced analytics.</p>
           <br />
           <p>Interested in learning more? Get in touch at
-            <strong><a href="mailto:support@saren.io"> support@saren.io.</a></strong>
+            <strong><a href="mailto:support@orbitdefi.com"> support@orbitdefi.com.</a></strong>
           </p>
         </Col>
       </Row>

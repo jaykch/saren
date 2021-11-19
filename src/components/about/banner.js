@@ -11,9 +11,9 @@ const Banner = () => {
         <Row>
           <Col lg={8} xs={24}>
             <div className="text">
-              <h1>What is Saren?</h1>
+              <h1>What is Orbit?</h1>
               <div className="logoContainer">
-                <p>Saren is a cryptocurrency data aggregator that supports over 1,000 crypto-assets. Saren is one of the
+                <p>Orbit is a cryptocurrency data aggregator that supports over 1,000 crypto-assets. Orbit is one of the
                   world's largest independent sources of trustworthy cryptocurrency statistics.</p>
               </div>
               <PremiumButton link="https://www.linkedin.com/company/saren-io/">

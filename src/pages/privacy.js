@@ -7,12 +7,12 @@ const Privacy = () => {
     <Layout>
       <section className="privacyPage container" >
         <h1>Privacy Policy</h1>
-        <div><p>At Saren, we’re committed to protecting and respecting your privacy.
+        <div><p>At Orbit, we’re committed to protecting and respecting your privacy.
           This Privacy and Cookie Policy (“Privacy Policy”) govern your access to and use of this Website,
-          Saren.com (the “Website”), and associated content, software, and mobile applications (collectively,
+          Orbitdefi.com (the “Website”), and associated content, software, and mobile applications (collectively,
           the
           “Service”). This Privacy Policy also includes our Terms of Use which is located at
-          <Link to="/terms"> https://saren.com/terms</Link>.
+          <Link to="/terms"> https://orbitdefi.com/terms</Link>.
         </p><p>This Privacy Policy explains when and why we collect personal information about people who visit our
           Website or use our Services and how we use the personal information, the conditions under which we may
           disclose
@@ -24,7 +24,7 @@ const Privacy = () => {
             happy with any changes. By using our Website or our Services, you are agreeing to be bound by this Privacy
             Policy.</p></div>
         <section><h3>What Information Do We Collect?</h3>
-          <p>Saren (“Saren”, “we” or “us”) collects (a) the e-mail addresses of those who communicate
+          <p>Orbit (“Orbit”, “we” or “us”) collects (a) the e-mail addresses of those who communicate
             with
             us via e-mail; (b) aggregate information concerning what pages users access or visit; (c) information
             volunteered by the user (such as survey information and/or site registrations); (d) financial information
@@ -33,12 +33,12 @@ const Privacy = () => {
             of
             your request.</p></section>
         <section><h3>How Do We Use the Information?</h3>
-          <p>Saren uses collected information for the following purposes:</p>
+          <p>Orbit uses collected information for the following purposes:</p>
           <ol>
             <li>To fulfill a contract or take steps linked to a contract such as processing your registration on our
               Website or sending you information about changes to our terms or policies;
             </li>
-            <li>Where it is necessary for purposes which are in Saren’s or third parties’ legitimate interests
+            <li>Where it is necessary for purposes which are in Orbit’s or third parties’ legitimate interests
               such as (a) to provide the information or content you have requested; (b) to contact you about our
               programs,
               products, features or services; (c) for internal business purposes such as identification and
@@ -51,7 +51,7 @@ const Privacy = () => {
               purposes disclosed at the time of collection.
               <br />
               If you do not wish to receive marketing information about
-              our programs, products, features or services, you may send an email to us at support@saren.com.
+              our programs, products, features or services, you may send an email to us at support@Orbit.com.
             </li>
             <li>Where you give us consent, such as (a) where you ask us to send marketing information to you via a
               medium
@@ -80,9 +80,9 @@ const Privacy = () => {
               activities, suspected fraud, situations involving potential threats to the physical safety of any person,
               violations of Terms of Service, or as otherwise required by law.
             </li>
-            <li>We transfer information about you if Saren is acquired by or merged with another company. In
+            <li>We transfer information about you if Orbit is acquired by or merged with another company. In
               this
-              event, Saren will notify you before information about you is transferred and becomes subject to a
+              event, Orbit will notify you before information about you is transferred and becomes subject to a
               different privacy policy.
             </li>
             <li>We provide such information to trusted businesses or persons for the sole purpose of processing
@@ -94,7 +94,7 @@ const Privacy = () => {
             </li>
             <li>We provide such information to third parties who have entered into non-disclosure agreements with us.
             </li>
-            <li>We provide such information to a company controlled by, or under common control with, Saren for
+            <li>We provide such information to a company controlled by, or under common control with, Orbit for
               any purpose permitted by this Privacy Policy.
             </li>
             <li>We may aggregate, anonymize, and publish data for statistical and research purposes only. For example,
@@ -107,7 +107,7 @@ const Privacy = () => {
         <section><h3>Cookies and Web Beacons</h3><p>A cookie
           is a small amount of data, which often includes an anonymous unique identifier, which is sent to your browser
           from a Website’s computers and stored on your computer’s hard drive. Cookies are required to use some
-          Saren services. Saren and its ad management partners (“Ad Partners”) use cookies to record
+          Orbit services. Orbit and its ad management partners (“Ad Partners”) use cookies to record
           current session information.</p><p>Our Ad Partners may also from time to time use web beacons (also known as
           Internet tags, pixel tags, and clear GIFs). These web beacons are provided by our Ad Partners and allow Ad
           Partners to obtain information such as the IP address of the computer that downloaded the page on which the
@@ -123,15 +123,15 @@ const Privacy = () => {
           cookies from your browser:<a href="http://www.allaboutcookies.org/manage-cookies/" target="_blank"
                                        rel="nofollow noopener">http://www.allaboutcookies.org/manage-cookies/</a>.
         </p></section>
-        <section><h3>Data Storage</h3><p>Saren uses
+        <section><h3>Data Storage</h3><p>Orbit uses
           third-party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and
-          related technology required to run Saren and the related Website and mobile application. Saren
-          owns the code, databases, and all rights to the Saren Website and mobile application and Services.</p>
+          related technology required to run Orbit and the related Website and mobile application. Orbit
+          owns the code, databases, and all rights to the Orbit Website and mobile application and Services.</p>
         </section>
         <section><h3>Security</h3><p>We take precautions to
           ensure the security of your personal information. However, we cannot guarantee that hackers or unauthorized
           personnel may gain access to your personal information despite our efforts. You should note that in using the
-          Saren service, your information will travel over the Internet and through third-party infrastructures
+          Orbit service, your information will travel over the Internet and through third-party infrastructures
           and mobile networks, which are not under our control.</p><p>We cannot protect, nor does this Privacy Policy
           apply to, any information that you transmit to other users. You should never transmit personal or identifying
           information to other users.</p></section>
@@ -147,26 +147,26 @@ const Privacy = () => {
           necessary
           and relevant to provide our Services may be de-identified and aggregated with other non-personal data to
           provide
-          insights which are commercially valuable to Saren, such as statistics related to the use of
-          Saren’s Website and application.</p></section>
-        <section><h3>Children</h3><p>The Saren
+          insights which are commercially valuable to Orbit, such as statistics related to the use of
+          Orbit’s Website and application.</p></section>
+        <section><h3>Children</h3><p>The Orbit
           service
           is not intended for children under the age of 16, and we do not knowingly collect information from children
           under the age of 16.</p><p>Children aged 16 or younger should not submit any personal information without the
-          permission of their parents or guardians. By using the Saren service, you are representing that you
+          permission of their parents or guardians. By using the Orbit service, you are representing that you
           are
           at least 18 years old, or that you are at least 16 years old and have your parents’ or guardians’ permission
           to
           use the Service.</p></section>
         <section><h3>Consent to Worldwide Transfer and
-          Processing of Personal Information</h3><p>Saren is located in the United States. and the terms of this
+          Processing of Personal Information</h3><p>Orbit is located in the United States. and the terms of this
           Privacy Policy and the related Terms of Use shall be governed by and construed in accordance with U.S. federal
           law and the laws of Delaware, without regard to any principles of conflicts of law. If you are not located in
           the United States, by accessing the Website and Services and providing personal information through it, you
           agree and acknowledge and consent to the collection, maintenance, processing, and transfer of such information
           in and to the United States and other countries and territories. These other jurisdictions may have different
           privacy laws from your home jurisdiction and provide different levels of protection of personal information.
-          Saren does have processes and procedures in place to provide adequate levels of protection to protect
+          Orbit does have processes and procedures in place to provide adequate levels of protection to protect
           the transfer of data from the European Union. You agree that the terms of this Privacy Policy and the Terms of
           Use will apply and you consent to the transmission and processing of your personal information in any
           jurisdiction.</p></section>
@@ -190,14 +190,14 @@ const Privacy = () => {
           have the right to do so with your local supervisory authority, although we hope that we can assist with any
           queries or concerns you may have about our use of your personal data.</p></section>
         <section><h3>Your California Privacy Rights</h3>
-          <p>California Consumer Privacy Act (CCPA)</p><p>In the last twelve months, Saren may have collected,
+          <p>California Consumer Privacy Act (CCPA)</p><p>In the last twelve months, Orbit may have collected,
             used, and shared, for business purposes, personal information about you as described in this Privacy Policy.
-            Each category of data may be used by Saren or shared with third parties also as described in this
+            Each category of data may be used by Orbit or shared with third parties also as described in this
             Privacy Policy. Residents of California have the right to request access to and deletion of the information
-            Saren holds about them. Such requests may be submitted by email to support@saren.com or by
+            Orbit holds about them. Such requests may be submitted by email to support@Orbit.com or by
             mail
-            to Saren OpCo LLC. Saren will not sell your personal information without your consent.
-            Saren will not discriminate against you for exercising your rights under CCPA. Specifically, we will
+            to Orbit OpCo LLC. Orbit will not sell your personal information without your consent.
+            Orbit will not discriminate against you for exercising your rights under CCPA. Specifically, we will
             not:</p>
           <ul>
             <li>Deny access to our Services;</li>
@@ -205,13 +205,13 @@ const Privacy = () => {
             <li>Provide a different quality of service.</li>
           </ul>
         </section>
-        <section><h3>Changes</h3><p>Saren may
+        <section><h3>Changes</h3><p>Orbit may
           periodically update this policy. We may notify you about significant changes in the way we treat personal
           information by placing a prominent notice on our Website so please check back occasionally to ensure that you
           agree with the changes. If you do not, do not use the Website, the application or our Services.</p></section>
         <section><h3>Questions</h3><p>Any questions about
           this
-          Privacy Policy should be addressed to this e-mail address: support@saren.com.</p></section>
+          Privacy Policy should be addressed to this e-mail address: support@Orbit.com.</p></section>
         <div><p>Effective Date: January 1st, 2020.</p></div>
       </section>
     </Layout>
