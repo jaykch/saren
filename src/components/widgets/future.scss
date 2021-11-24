@@ -1,6 +1,11 @@
 .future {
   padding: 4rem 0;
 
+  .image-container{
+    display: flex;
+    align-items: center;
+  }
+
   h2 {
     font-size: 2.4rem;
   }
@@ -15,9 +20,17 @@
   }
 
   .text {
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+
+    img{
+      display: none;
+    }
   }
 }

@@ -10,8 +10,10 @@ const UseCase = () => {
         <Col lg={8} className="text">
           <h2>Use Cases</h2>
           <ul>
-            <li><strong>DAO: </strong>Any governance decisions like new token rewards, changes to development/market
-              reserves etc. will be done through a protocol which will use Orbit tokens as primary voting power.
+            <li><strong>DAO: </strong>Governance will only be available to Staked Token holders.
+              <br />
+              Voting requires $ORBIT and will take place on snapshot while the Orbit Governance Portal is completed. The
+              portal will then be the main hub for governance discussions, debates and more.
             </li>
           </ul>
         </Col>
@@ -19,18 +21,19 @@ const UseCase = () => {
           <img src={useCase} alt="Use Case" />
         </Col>
         <Col lg={8}>
-          <p><strong>Advertisements: </strong>Any advertisements on Orbit apps will get a discount if paid in our native
-            token. Profits from Advertisements will be used to buyback part of the token supply.
+          <p><strong>Tiers and Roles: </strong>There will be three different tiers. Gold, Silver and Bronze, higher
+            tiers will include access to lower tier features. <br />
+            Features: Access to DAO proposals, API, validators and sponsored banners and more.
           </p>
         </Col>
         <Col lg={8}>
-          <p><strong>App: </strong>Once the decentralisation of our app is complete, companies holding $ORBIT will be
-            able to bid on advertisements directly on our app.
+          <p><strong>Advanced Platform Functionality for token holders: </strong> Advanced features like editing
+            comments, leaving reviews and user profiles will be available to our tiered members.
           </p>
         </Col>
         <Col lg={8}>
-          <p><strong>Comments and User Profiles: </strong>$ORBIT holders will get special badges on their profiles and
-            will be able to opt in for special reports and rewards like NFT drops.
+          <p><strong>Access to API and user data: </strong>$ORBIT holders will get special access to user trends and
+            data endpoints to help them make better investment decisions.
           </p>
         </Col>
       </Row>

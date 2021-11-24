@@ -1,4 +1,12 @@
-.aboutPartnersInvestors{
+.aboutPartnersInvestors {
   text-align: center;
   padding: 4rem 0;
+
+  h2 {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0 0;
+  }
 }

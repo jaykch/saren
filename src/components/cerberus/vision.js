@@ -14,10 +14,11 @@ const Vision = () => {
           <h2>Future</h2>
           <h3>Feature list</h3>
           <ul>
-            <li>Dark mode</li>
+            <li>User Ratings & Reviews</li>
+            <li>Multichain Dex</li>
             <li>Comments</li>
-            <li>NFTs</li>
-            <li>Tags</li>
+            <li>Staking</li>
+            <li>Multichain Wallet Viewer</li>
           </ul>
         </Col>
         <Col md={12} className="imageContainer desktop">

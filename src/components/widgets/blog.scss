@@ -72,6 +72,10 @@
     display: block;
   }
 
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+  }
+
   @media screen and (max-width: 576px) {
     .blog-banner {
       display: none;

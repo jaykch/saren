@@ -41,7 +41,6 @@ const settings = {
 }
 
 const partners = [
-  { title: "Cornpop Studios", logo: cornpop, url: "https://cornpop.fans/", text: "Check them out" },
   { title: "Curtis Bear", logo: curtis, url: "https://curtisbear.com/", text: "Check them out" },
   { title: "Fera Strategies", logo: fera, url: "https://www.ferastrategies.com/", text: "Check them out" },
   { title: "Penguin Party", logo: penguin, url: "https://penguinparty.eth.link/", text: "Check them out" },

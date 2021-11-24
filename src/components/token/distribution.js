@@ -4,12 +4,11 @@ import "./distribution.scss"
 import distribution from "../../images/token/distribution.svg"
 
 const data = [
-  { name: "Team Allocation", value: 100000000 },
-  { name: "Liquidity Reserve", value: 250000000 },
-  { name: "Development", value: 400000000 },
-  { name: "Marketing", value: 250000000 }
+  { name: "Total Supply", value: 100000000 },
+  { name: "Circulating Supply", value: 30000000 },
+  { name: "DAO", value: 35000000 },
+  { name: "New Users", value: 10000000 }
 ]
-
 
 const Distribution = () => {
 
@@ -23,11 +22,9 @@ const Distribution = () => {
           <div className="details">
             <h2>Token Distribution ($ORBIT)</h2>
             <ul>
-              <li><span>Total Supply </span><span>100,000,000</span></li>
-              <li><span>Circulating Supply</span><span>50,000,000</span></li>
-              <li><span>Team Allocation</span><span>10,000,000</span></li>
-              <li><span>Development</span><span>25,000,000</span></li>
-              <li><span>Marketing</span><span>15,000,000</span></li>
+              {data.map((tokens, key)=>
+                <li key={key}><span>{tokens.name} </span><span>{tokens.value}</span></li>
+              )}
             </ul>
           </div>
         </Col>

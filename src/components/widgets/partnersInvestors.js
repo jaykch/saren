@@ -7,18 +7,16 @@ import fera from "../../images/partners/fera.png"
 import penguin from "../../images/partners/penguin.png"
 import moontools from "../../images/partners/moontools.png"
 import stacker from "../../images/partners/stacker.png"
-import cornpop from "../../images/partners/cornpop.jpg"
 import curtis from "../../images/partners/curtis.png"
 import psiCapital from "../../images/partners/psiCapital.svg"
 
 const partners = [
-  { title: "Cornpop Studios", logo: cornpop, url: "https://cornpop.fans/", text: "Check them out" },
-  // { title: "Curtis Bear", logo: curtis, url: "https://curtisbear.com/", text: "Check them out" },
-  { title: "Fera Strategies", logo: fera, url: "https://www.ferastrategies.com/", text: "Check them out" },
-  { title: "Penguin Party", logo: penguin, url: "https://penguinparty.eth.link/", text: "Check them out" },
-  { title: "Moontools", logo: moontools, url: "https://moontools.io/", text: "Check them out" },
   { title: "Stacker Ventures", logo: stacker, url: "https://stacker.vc/", text: "Check them out" },
-  { title: "PSI Capital", logo: psiCapital, url: "https://psi.capital/", text: "Check them out" }
+  { title: "Moontools", logo: moontools, url: "https://moontools.io/", text: "Check them out" },
+  { title: "Penguin Party", logo: penguin, url: "https://penguinparty.eth.link/", text: "Check them out" },
+  { title: "Fera Strategies", logo: fera, url: "https://www.ferastrategies.com/", text: "Check them out" },
+  { title: "PSI Capital", logo: psiCapital, url: "https://psi.capital/", text: "Check them out" },
+  // { title: "Curtis Bear", logo: curtis, url: "https://curtisbear.com/", text: "Check them out" }
 ]
 
 const PartnersInvestors = () => {

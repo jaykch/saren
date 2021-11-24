@@ -34,22 +34,22 @@ const Footer = () => {
                   <Link to="/about"><span>About Us</span></Link>
                 </li>
                 <li>
-                  <a href="https://medium.com/@Saren_io" rel="noreferrer noopener" target="_blank">
+                  <a href="https://medium.com/@orbitdefi" rel="noreferrer noopener" target="_blank">
                     <span>Blog</span>
                   </a>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <a href="https://t.me/saren_channel" target="_blank"
+                  <a href="https://t.me/orbitdefi" target="_blank"
                      rel="noreferrer noopener"><FaTelegramPlane /></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/saren_io" target="_blank"
+                  <a href="https://twitter.com/orbit_defi" target="_blank"
                      rel="noreferrer noopener"><FaTwitter /></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/saren-io" target="_blank"
+                  <a href="https://www.linkedin.com/company/orbitdefi" target="_blank"
                      rel="noreferrer noopener"><FaLinkedin /></a>
                 </li>
                 <li>
@@ -58,7 +58,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/saren-io" target="_blank" rel="noreferrer noopener">
+                  <a href="https://github.com/orbitdefi" target="_blank" rel="noreferrer noopener">
                     <FaGithub />
                   </a>
                 </li>

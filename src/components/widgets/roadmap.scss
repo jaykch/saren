@@ -1,5 +1,5 @@
 .roadmap {
-  padding: 4rem 10px;
+  padding: 4rem 0;
 
   h2 {
     text-align: center;
@@ -20,5 +20,9 @@
 
   .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
     background: linear-gradient(93.09deg, #000F99 -42.93%, #F60FDF 133.16%);
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 20px;
   }
 }

@@ -11,19 +11,19 @@ const images = [blog1, blog2, blog3]
 
 const blogs = [
   {
-    title: "Orbit Update",
-    description: "We would like to apologise for the lack of communication over the past few weeks...",
-    url: "https://medium.com/@Saren_io/saren-update-3791545ed292"
+    title: "Fortnightly AMA — 20/11/2021",
+    description: "When stacker ventures invested into Saren there was a time lock on their tokens what will happen...",
+    url: "https://orbitdefi.medium.com/fortnightly-ama-20-11-2021-b80acd41f49f"
   },
   {
-    title: "User Authentication",
-    description: "Password based authentication is an insecure approach to online transactions...",
-    url: "https://medium.com/@Saren_io/user-authentication-a-journey-from-old-restful-to-decentralized-system-5881f56ff267"
+    title: "Saren’s Fortnightly AMA",
+    description: "With the launch of version 2 around the corner, we are trying to make sure...",
+    url: "https://orbitdefi.medium.com/sarens-fortnightly-ama-d5cf43d71e24"
   },
   {
-    title: "New login partnership\n",
-    description: "We are happy to announce that Curtis Bear will be the first project using our login system for minting their NFTs...",
-    url: "https://medium.com/@Saren_io/new-login-partnership-af5f905f5c66"
+    title: "New Design and Website",
+    description: "After 2 months of design and development, we’re finally pleased to...",
+    url: "https://orbitdefi.medium.com/new-design-and-website-7afd5a5b557e"
   }
 ]
 
@@ -36,7 +36,7 @@ const Blog = () => {
           <div className="text">
             <h3>{blogs[0].title}</h3>
             <p>{blogs[0].description}</p>
-            <a href={blogs[0].url}>Read More...</a>
+            <a href={blogs[0].url} target="_blank" rel="noopener noreferrer">Read More...</a>
           </div>
         </Col>
         <Col lg={12} xs={24} className="links">

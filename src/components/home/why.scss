@@ -18,10 +18,15 @@
     .cancelProof {
       font-weight: bolder;
       font-size: 3rem;
+      margin-bottom: 0;
 
       .proof{
         margin-left: 0.5rem;
       }
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
   }
 }

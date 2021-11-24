@@ -9,19 +9,19 @@ const links = [
   {
     title: "Telegram",
     subtitle: "Join the talk",
-    url: "https://t.me/saren_channel",
+    url: "https://t.me/orbitdefi",
     logo: <FaTelegramPlane />
   },
   {
     title: "Twitter",
     subtitle: "Read the latest",
-    url: "https://twitter.com/saren_io",
+    url: "https://twitter.com/orbit_defi",
     logo: <FaTwitter />
   },
   {
     title: "Linkedin",
     subtitle: "View the people",
-    url: "https://www.linkedin.com/company/saren-io",
+    url: "https://www.linkedin.com/company/orbitdefi",
     logo: <FaLinkedin />
   },
   {
@@ -33,7 +33,7 @@ const links = [
   {
     title: "Github",
     subtitle: "Create with us",
-    url: "https://github.com/saren-io",
+    url: "https://github.com/orbitdefi",
     logo: <FaGithub />
   }
 ]
@@ -43,13 +43,13 @@ const Community = () => {
     <section className="community container">
       <Row>
         <Col md={{ span: 16, offset: 4 }}>
-          <span className="banner-title">Changing the way you analyse the crypto market!</span>
+          <span className="banner-title">Over 1,500 Coins & 5,000 NFT Projects</span>
         </Col>
       </Row>
       <div className="community-links">
         <Row>
           <Col md={{ span: 10, offset: 2 }}>
-            <span className="subtitle">Join Orbit's global open-source community</span>
+            <span className="subtitle">Join Orbit's global community</span>
           </Col>
           <Col md={{ span: 10 }}>
             <p>Orbit's financial tools provide reliable cryptocurrency data and economic strategies to help it's

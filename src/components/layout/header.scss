@@ -63,6 +63,8 @@ header {
 
       li {
         margin: 1rem;
+        font-weight: 500;
+        cursor: pointer;
 
         a {
           font-weight: 500;
@@ -104,6 +106,8 @@ header {
     z-index: 3;
 
     li {
+      padding: 0.2rem 1rem;
+
       span {
         //border-bottom: 2px solid #442A78;
         padding-right: 15px;
@@ -138,7 +142,6 @@ header {
 
   .responsive-navbar li a {
     display: block;
-    padding: 0.2rem 1rem;
     text-decoration: none;
   }
 

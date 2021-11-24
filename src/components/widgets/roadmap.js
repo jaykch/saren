@@ -11,13 +11,13 @@ const RoadMap = () => {
       <Row>
         <Col lg={24}>
           <Steps progressDot current={2} responsive={true}>
-            <Step title="Version 1" />
             <Step title="Brand Refresh" />
-            <Step title="New Tokenomics" />
             <Step title="App Redesign" />
-            <Step title="Version 2" />
-            <Step title="Liquidity Mining" />
-            <Step title="Transition to DAO" />
+            <Step title="Wallet History and Send" />
+            <Step title="Comments and Ratings" />
+            <Step title="Multichain Dex" />
+            <Step title="Staking" />
+            <Step title="Multichain Wallet Viewer" />
           </Steps>
         </Col>
       </Row>

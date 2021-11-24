@@ -1,24 +1,24 @@
 import React from "react"
 import "./banner.scss"
 import { Col, Row } from "antd"
-import banner from "../../images/home/future.svg"
 import PremiumButton from "../misc/premiumButton"
+import banner from "../../images/token/token.svg"
 
 const Banner = () => {
   return (
     <section className="cerberusBanner">
       <div className="container">
         <Row>
-          <Col lg={12} xs={24}>
+          <Col lg={8} xs={24}>
             <div className="text">
               <h1>Advanced crypto tracking and analytics</h1>
               <p>A decentralised crypto tracking app built for the crypto community.</p>
-              <PremiumButton link="https://app.orbitdefi.com/">
-                Open App
+              <PremiumButton type="internal" link="/app">
+                App Coming Soon
               </PremiumButton>
             </div>
           </Col>
-          <Col lg={12} xs={24} className="image">
+          <Col lg={16} xs={24} className="image">
             <img src={banner} alt="Banner" />
           </Col>
         </Row>

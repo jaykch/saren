@@ -15,9 +15,9 @@ const Banner = () => {
           <Col lg={8} xs={24}>
             <div className="text">
               <h1>Decentralized tools to analyse the crypto market</h1>
-              <p>Gain fundamental market insights curated by the crypto community.</p>
-              <PremiumButton link="https://app.orbitdefi.com/">
-                App
+              <p>A one-stop platform that gives users a complete view of digital assets and tools to make great  investment decisions. </p>
+              <PremiumButton type="internal" link="/">
+                App Coming Soon
               </PremiumButton>
             </div>
           </Col>

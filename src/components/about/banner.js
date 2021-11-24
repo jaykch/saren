@@ -13,10 +13,12 @@ const Banner = () => {
             <div className="text">
               <h1>What is Orbit?</h1>
               <div className="logoContainer">
-                <p>Orbit is a cryptocurrency data aggregator that supports over 1,000 crypto-assets. Orbit is one of the
-                  world's largest independent sources of trustworthy cryptocurrency statistics.</p>
+                <p>Orbit is a one-stop platform that gives users a complete view of digital assets and tools to make great
+                  investment decisions. </p>
+                <p>Orbit measures community growth, open-source development, big events, and on-chain metrics in
+                  addition to price, volume, and market capitalization.</p>
               </div>
-              <PremiumButton link="https://www.linkedin.com/company/saren-io/">
+              <PremiumButton link="https://www.linkedin.com/company/orbitdefi/">
                 View Linkedin
               </PremiumButton>
             </div>

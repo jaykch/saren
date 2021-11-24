@@ -30,14 +30,13 @@ const Details = () => {
             <td><img src={type} alt="Type" />Type</td>
             <td>ERC20</td>
           </tr>
-          <tr>
-            <td><img src={price} alt="Price" />Initial Price</td>
-            <td>$0.01</td>
-          </tr>
+          {/*<tr>*/}
+          {/*  <td><img src={price} alt="Price" />Initial Price</td>*/}
+          {/*  <td>$0.01</td>*/}
+          {/*</tr>*/}
           <tr>
             <td><img src={circulating} alt="Circulating" />Circulating Supply</td>
-            <td>50,000,000</td>
-
+            <td>30,000,000</td>
           </tr>
           <tr>
             <td><img src={total} alt="Total" />Total Supply</td>
